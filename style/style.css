@@ -1,0 +1,46 @@
+#container {
+  left: 10%;
+  width: 1000px;
+  height: 1000px; 
+  background-color: #f7f8e6;
+}
+.modal-body {
+  background-color: #d0efc4;
+  margin-bottom: 0;
+  height:100%;
+  width: 100%;
+  text-align: center;
+}
+.modal-body > .img-responsive {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.modal-dialog {
+  height: 80%;
+}
+.modal-content {
+  height: 100%;
+}
+.modal .text-center {
+  max-width: 60%;
+  margin: 0 auto; 
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.landing-div {
+  position: absolute;
+  width: 250px;
+  height: 250px;
+  border-radius: 10px;
+}
+img {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: cover;
+  cursor: pointer;
+}
+
+
