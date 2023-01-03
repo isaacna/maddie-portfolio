@@ -50,3 +50,12 @@ document.addEventListener("DOMContentLoaded", function (){
       window.onload = scatterDivs;
 
 })
+
+$(document).ready(function () {
+  $("#image1").click(function () {
+    $('#exampleModal').modal('show');
+  });
+  $("#image2").click(function () {
+    $('#exampleModal').modal('show');
+  });
+});
