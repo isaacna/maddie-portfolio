@@ -57,4 +57,6 @@ img {
   padding: 30px;
   font-size: 18px;
 }
-
+.hover-light:hover {
+  opacity:0.5;
+}
