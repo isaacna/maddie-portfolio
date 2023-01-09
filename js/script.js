@@ -27,20 +27,25 @@ document.addEventListener("DOMContentLoaded", function (){
 
         // Loop through all the divs
         for (var i = 0; i < divs.length; i++) {
-          // Generate random positions for the div within the container
-          var x = getRandomNumber(0, container.offsetWidth - 100);
-          var y = getRandomNumber(0, container.offsetHeight - 100);
+          // Only execute if not the top left div 
+          if (divs[i].id != "menu") {
+            console.log(divs[i])
+            // Generate random positions for the div within the container
+            var x = getRandomNumber(0, container.offsetWidth - 100);
+            var y = getRandomNumber(0, container.offsetHeight - 100);
 
-          // Set the positions of the div
-          divs[i].style.left = x + "px";
-          divs[i].style.top = y + "px";
+            // Set the positions of the div
+            divs[i].style.visibility = "visible";
+            divs[i].style.left = x + "px";
+            divs[i].style.top = y + "px";
 
-          // Check if the div is overlapping any other divs
-          for (var j = 0; j < divs.length; j++) {
-            if (i != j && isOverlapping(divs[i], divs[j])) {
-              // If the div is overlapping, generate new positions and try again
-              i--;
-              break;
+            // Check if the div is overlapping any other divs
+            for (var j = 0; j < divs.length; j++) {
+              if (i != j && isOverlapping(divs[i], divs[j])) {
+                // If the div is overlapping, generate new positions and try again
+                i--;
+                break;
+              }
             }
           }
         }
