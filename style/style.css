@@ -60,3 +60,12 @@ img {
 .hover-light:hover {
   opacity:0.5;
 }
+/* Works on Chrome, safari, not Firefox*/
+::-webkit-scrollbar {
+  background: inherit;
+}
+::-webkit-scrollbar-thumb {
+    border-radius: 15px;
+    background:lightgray;
+}
+
