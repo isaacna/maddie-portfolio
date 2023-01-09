@@ -17,6 +17,16 @@ document.addEventListener("DOMContentLoaded", function (){
                 r2.bottom < r1.top);
       }
 
+      function isElementInViewport(e) {
+        const rect = e.getBoundingClientRect();
+        return (
+          rect.left >= 0 &&
+          // TODO: Figure out why images still go past the viewport
+          // the -20 helps this issue appear less frequently
+          rect.right < (window.innerWidth - 20 || document.documentElement.clientWidth)
+        );
+      }
+
       // Function to scatter the divs randomly without overlapping
       function scatterDivs() {
         // Get the container element
@@ -29,7 +39,6 @@ document.addEventListener("DOMContentLoaded", function (){
         for (var i = 0; i < divs.length; i++) {
           // Only execute if not the top left div 
           if (divs[i].id != "menu") {
-            console.log(divs[i])
             // Generate random positions for the div within the container
             var x = getRandomNumber(0, container.offsetWidth - 100);
             var y = getRandomNumber(0, container.offsetHeight - 100);
@@ -38,6 +47,11 @@ document.addEventListener("DOMContentLoaded", function (){
             divs[i].style.visibility = "visible";
             divs[i].style.left = x + "px";
             divs[i].style.top = y + "px";
+
+            if (!isElementInViewport(divs[i])) {
+              i--;
+              continue;
+            }
 
             // Check if the div is overlapping any other divs
             for (var j = 0; j < divs.length; j++) {
