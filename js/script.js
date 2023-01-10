@@ -19,12 +19,13 @@ document.addEventListener("DOMContentLoaded", function (){
 
       function isElementInViewport(e) {
         const rect = e.getBoundingClientRect();
-        return (
-          rect.left >= 0 &&
-          // TODO: Figure out why images still go past the viewport
-          // the -20 helps this issue appear less frequently
-          rect.right < (window.innerWidth - 20 || document.documentElement.clientWidth)
-        );
+        // TODO: Figure out why images still go past the viewport
+        // the -20 helps this issue appear less frequently
+        minWidth = Math.max(1200, window.innerWidth - 20);
+        //console.log("MIN");
+        //console.log(minWidth);
+        ///rect.right < (window.innerWidth - 20 || document.documentElement.clientWidth)
+        return rect.left >= 0 && rect.right < minWidth;
       }
 
       // Function to scatter the divs randomly without overlapping
@@ -40,15 +41,31 @@ document.addEventListener("DOMContentLoaded", function (){
           // Only execute if not the top left div 
           if (divs[i].id != "menu") {
             // Generate random positions for the div within the container
-            var x = getRandomNumber(0, container.offsetWidth - 100);
-            var y = getRandomNumber(0, container.offsetHeight - 100);
+            //var x = getRandomNumber(0, container.offsetWidth - 100);
+            //var y = getRandomNumber(0, container.offsetHeight - 100);
+            //
+            //minWidth = Math.max(1200, window.innerWidth - 20);
+            minWidth = container.offsetWidth;
+            minHeight = container.offsetHeight;
+            // If width is less than 2 image length, extend the bottom of the container 
+            if (minWidth < 800) {
+              console.log("EXPANDING");
+              minHeight = 4000;
+            }
+            var x = getRandomNumber(0, minWidth - 100);
+            var y = getRandomNumber(0, minHeight - 100);
+            console.log("HEIGHT");
+            console.log(minHeight);
+
 
             // Set the positions of the div
             divs[i].style.visibility = "visible";
             divs[i].style.left = x + "px";
             divs[i].style.top = y + "px";
 
+            console.log("HELLO")
             if (!isElementInViewport(divs[i])) {
+              console.log("NOT IN VIEWPORT");
               i--;
               continue;
             }
@@ -56,6 +73,7 @@ document.addEventListener("DOMContentLoaded", function (){
             // Check if the div is overlapping any other divs
             for (var j = 0; j < divs.length; j++) {
               if (i != j && isOverlapping(divs[i], divs[j])) {
+                console.log("OVERLAPPING");
                 // If the div is overlapping, generate new positions and try again
                 i--;
                 break;
