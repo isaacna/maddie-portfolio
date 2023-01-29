@@ -20,12 +20,9 @@ document.addEventListener("DOMContentLoaded", function (){
       function isElementInViewport(e) {
         const rect = e.getBoundingClientRect();
         // TODO: Figure out why images still go past the viewport
-        // the -20 helps this issue appear less frequently
-        minWidth = Math.max(1200, window.innerWidth - 20);
-        //console.log("MIN");
-        //console.log(minWidth);
+        
         ///rect.right < (window.innerWidth - 20 || document.documentElement.clientWidth)
-        return rect.left >= 0 && rect.right < minWidth;
+        return rect.left >= 0 && rect.right < container.offsetWidth;
       }
 
       // Function to scatter the divs randomly without overlapping
@@ -40,22 +37,26 @@ document.addEventListener("DOMContentLoaded", function (){
         for (var i = 0; i < divs.length; i++) {
           // Only execute if not the top left div 
           if (divs[i].id != "menu") {
-            // Generate random positions for the div within the container
-            //var x = getRandomNumber(0, container.offsetWidth - 100);
-            //var y = getRandomNumber(0, container.offsetHeight - 100);
-            //
-            //minWidth = Math.max(1200, window.innerWidth - 20);
-            minWidth = container.offsetWidth;
-            minHeight = container.offsetHeight;
-            // If width is less than 2 image length, extend the bottom of the container 
-            if (minWidth < 800) {
-              console.log("EXPANDING");
-              minHeight = 4000;
+            
+            widthRange = container.offsetWidth;
+            heightRange = container.offsetHeight;
+
+            // If we are dealing with a skinny window (mobile), favor vertical expansion
+            if (container.offsetWidth < container.offsetHeight / 2) {
+              // TODO: Make the vertical expansion proportional to image size 
+              // Increase vertical range proportionally to number of images 
+              // Dividing by 5 because images have a max height of 20%
+              heightRange = divs.length * (container.offsetHeight / 5) * 2 
             }
-            var x = getRandomNumber(0, minWidth - 100);
-            var y = getRandomNumber(0, minHeight - 100);
-            console.log("HEIGHT");
-            console.log(minHeight);
+            var yDist = heightRange  / 100
+            var xDist = widthRange  / 100
+
+
+            // Generate random positions for the div within the container
+            var x = getRandomNumber(0, widthRange  - xDist);
+            var y = getRandomNumber(0, heightRange  - yDist);
+            console.log("HEIGHT RANGE");
+            console.log(heightRange );
 
 
             // Set the positions of the div
@@ -63,7 +64,6 @@ document.addEventListener("DOMContentLoaded", function (){
             divs[i].style.left = x + "px";
             divs[i].style.top = y + "px";
 
-            console.log("HELLO")
             if (!isElementInViewport(divs[i])) {
               console.log("NOT IN VIEWPORT");
               i--;

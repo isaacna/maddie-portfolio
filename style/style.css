@@ -41,6 +41,8 @@
   position: absolute;
   width: 250px;
   height: 250px;
+  /* Scales with screen size */
+  max-width: 20%;
   border-radius: 10px;
   visibility: hidden;
 }
