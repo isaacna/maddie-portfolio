@@ -21,7 +21,6 @@ document.addEventListener("DOMContentLoaded", function (){
         const rect = e.getBoundingClientRect();
         // TODO: Figure out why images still go past the viewport
         
-        ///rect.right < (window.innerWidth - 20 || document.documentElement.clientWidth)
         return rect.left >= 0 && rect.right < container.offsetWidth;
       }
 
@@ -30,12 +29,14 @@ document.addEventListener("DOMContentLoaded", function (){
         // Get the container element
         var container = document.getElementById("container");
 
-        // Get all the divs within the container
-        var divs = container.getElementsByClassName("landing-div");
+        // Get all the landing divs
+        var landingDivs = container.getElementsByClassName("landing-div");
+        var menu = document.getElementsByClassName("menu");
+        var divs = [].concat(Array.from(landingDivs)).concat(Array.from(menu));
+
 
         // Loop through all the divs
         for (var i = 0; i < divs.length; i++) {
-          console.log("HERE")
           // Only execute if not the top left div 
           if (divs[i].id != "menu") {
             
@@ -44,13 +45,12 @@ document.addEventListener("DOMContentLoaded", function (){
 
             // If we are dealing with a skinny window (mobile), favor vertical expansion
             if (container.offsetWidth < container.offsetHeight / 2) {
-              // TODO: Make the vertical expansion proportional to image size 
               // Increase vertical range proportionally to number of images 
               // Dividing by 5 because images have a max height of 20%
-              heightRange = divs.length * (container.offsetHeight / 5) * 2 
+              heightRange = divs.length * (container.offsetHeight / 5) * 2;
             }
-            var yDist = heightRange  / 100
-            var xDist = widthRange  / 100
+            var yDist = heightRange  / 100;
+            var xDist = widthRange  / 100;
 
 
             // Generate random positions for the div within the container
