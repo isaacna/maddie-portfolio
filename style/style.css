@@ -80,6 +80,10 @@ a:hover {
   color: black;
   text-decoration: none;
 }
+a:visited {
+  color: black;
+  text-decoration: none;
+}
 
 /* Add indentation to submenu */
 .submenu {
