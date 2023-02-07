@@ -7,8 +7,8 @@
 /* Size of modal box */
 @media screen {
   .modal-dialog {
-    min-width: 70%;
     max-width: 70%;
+    min-width: 70%;
   }
 }
 .modal-body {
@@ -125,6 +125,53 @@ a:visited {
 }
 #minus {
   font-size: 20px;
+}
+
+/* Mobile styling */
+@media (max-width: 576px) {
+  #myModal {
+    margin: 0 auto; 
+    margin-left: 0;
+    margin-right: 0;
+  }
+  .modal-dialog {
+    left: 25%;
+    max-width: 70%;
+  }
+  .modal-content {
+    max-height: 70%;
+    min-width: 90%;
+    max-width: 90%;
+  }
+  .control-arrow-left {
+    position: absolute;
+    right: 15%;
+    font-size: 12px;
+  }
+  .control-arrow-right {
+    position: absolute;
+    right: 10%;
+    font-size: 12px;
+  }
+  #collapser {
+    position: absolute;
+    left: 10%;
+  }
+  #plus {
+    font-size: 14px;
+  }
+  #minus {
+    font-size: 14px;
+  }
+  /* Images inside modal */
+  .modal-body > .img-responsive {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    max-height: 70%
+  }
 }
 
 
