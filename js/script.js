@@ -89,6 +89,20 @@ $(document).ready(function () {
     $('#exampleModal').modal('show');
   });
   $("#image2").click(function () {
-    $('#exampleModal').modal('show');
+    $('#myModal').modal('show');
+  });
+});
+
+
+$(document).ready(function() {
+  // $('button[data-toggle="collapse"]').click(function() {
+  $('#collapser').click(function() {
+    if ($('#collapseDescription').hasClass('show')) {
+      $('#plus').show();
+      $('#minus').hide();
+    } else {
+      $('#plus').hide();
+      $('#minus').show();
+    }
   });
 });
