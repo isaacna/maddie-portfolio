@@ -10,6 +10,9 @@
     max-width: 70%;
     min-width: 70%;
   }
+  .modal-content {
+    max-height: 90%;
+  }
 }
 .modal-body {
   background-color: #d0efc4;
