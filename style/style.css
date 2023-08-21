@@ -130,6 +130,13 @@ a:visited {
   font-size: 20px;
 }
 
+
+/* Collapsed description */
+.custom-card {
+  background-color: transparent !important;
+  font-size: inherit; /* This will inherit the font size from the parent */
+}
+
 /* Mobile styling */
 @media (max-width: 576px) {
   #myModal {
