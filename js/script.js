@@ -86,9 +86,6 @@ document.addEventListener("DOMContentLoaded", function (){
 
 $(document).ready(function () {
   $("#image1").click(function () {
-    $('#exampleModal').modal('show');
-  });
-  $("#image2").click(function () {
     $('#myModal').modal('show');
   });
 });

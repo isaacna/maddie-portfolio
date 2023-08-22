@@ -2,7 +2,7 @@
   height: 100%; 
   width: 100%;
   display: flex;
-  background-color: #f7f8e6;
+  background-color: #FFFFFF;
 }
 /* Size of modal box */
 @media screen {
@@ -15,11 +15,13 @@
   }
 }
 .modal-body {
-  background-color: #d0efc4;
+  background-color: #FFFFFF;
   margin-bottom: 0;
   height:100%;
   width: 100%;
   text-align: center;
+  /* Adds scroll if text overflows */
+  overflow: auto;
 }
 /* Images inside modal */
 .modal-body > .img-responsive {
@@ -130,11 +132,11 @@ a:visited {
   font-size: 20px;
 }
 
-
 /* Collapsed description */
 .custom-card {
   background-color: transparent !important;
-  font-size: inherit; /* This will inherit the font size from the parent */
+  font-size: 12px !important; /* This will inherit the font size from the parent */
+  text-align: left !important;
 }
 
 /* Mobile styling */
