@@ -1,3 +1,21 @@
+/* Menu bar  */
+.menu-bar {
+  z-index: 0;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #333; /* Change this to your desired background color */
+  height: 20px; /* Change this to your desired height */
+  color: #333; /* Change this to your desired text color */
+  position: fixed;
+  /* Add any other styles you want */
+}
+.menu-body {
+  text-align: center;
+  color: white;
+}
+
+/* Container of images */
 #container {
   height: 100%; 
   width: 100%;
@@ -58,13 +76,6 @@ img {
   max-height: 100%;
   object-fit: cover;
   cursor: pointer;
-}
-#menu {
-  position: absolute; 
-  top: 0; 
-  left: 0;
-  padding: 30px;
-  font-size: 18px;
 }
 .hover-light:hover {
   opacity:0.5;
