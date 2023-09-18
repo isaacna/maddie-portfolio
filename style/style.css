@@ -29,6 +29,10 @@
   border:1px solid black;
 }
 
+.custom-padding-left {
+  padding-left: 15px;
+}
+
 /* Container of images */
 #container {
   height: 100%; 
