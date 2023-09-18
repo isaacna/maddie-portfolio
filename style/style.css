@@ -1,5 +1,5 @@
 /* Menu bar  */
-.menu-bar {
+.header-bar {
   z-index: 1;
   top: 0;
   left: 0;
@@ -10,15 +10,23 @@
   position: fixed;
   /* Add any other styles you want */
 }
-.menu-body {
-  text-align: center;
-  color: white;
+.header-cell {
+  border:1px solid white;
+  background-color: #333; /* Change this to your desired background color */
+  border-top: none;
 }
 
-/* Heading */
-#title-name {
-  text-align: center;
-  margin-top: 25px;
+/* Footer */
+.footer-bar {
+  z-index: 1;
+  background-color: white; /* Change this to your desired background color */
+  bottom: 0;
+  position: fixed;
+  width: 100%;
+}
+
+.footer-cell {
+  border:1px solid black;
 }
 
 /* Container of images */
