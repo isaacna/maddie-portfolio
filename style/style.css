@@ -1,6 +1,6 @@
 /* Menu bar  */
 .menu-bar {
-  z-index: 0;
+  z-index: 1;
   top: 0;
   left: 0;
   width: 100%;
@@ -13,6 +13,12 @@
 .menu-body {
   text-align: center;
   color: white;
+}
+
+/* Heading */
+#title-name {
+  text-align: center;
+  margin-top: 25px;
 }
 
 /* Container of images */
