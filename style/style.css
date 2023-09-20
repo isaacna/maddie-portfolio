@@ -1,9 +1,51 @@
+/* Menu bar  */
+.header-bar {
+  z-index: 1;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #333; /* Change this to your desired background color */
+  height: 20px; /* Change this to your desired height */
+  color: #333; /* Change this to your desired text color */
+  position: fixed;
+  /* Add any other styles you want */
+}
+.header-cell {
+  border:1px solid white;
+  background-color: #333; /* Change this to your desired background color */
+  border-top: none;
+}
+
+/* Footer */
+.footer-bar {
+  z-index: 1;
+  background-color: white; /* Change this to your desired background color */
+  bottom: 0;
+  position: fixed;
+  width: 100%;
+}
+
+.footer-cell {
+  border:1px solid black;
+}
+
+.custom-padding-left {
+  padding-left: 15px;
+}
+
+/* Container of images */
 #container {
   height: 100%; 
   width: 100%;
   display: flex;
   background-color: #FFFFFF;
 }
+
+/* Grid Styling */
+.image-grid {
+  max-height: 300px;
+}
+
 /* Size of modal box */
 @media screen {
   .modal-dialog {
@@ -59,13 +101,6 @@ img {
   object-fit: cover;
   cursor: pointer;
 }
-#menu {
-  position: absolute; 
-  top: 0; 
-  left: 0;
-  padding: 30px;
-  font-size: 18px;
-}
 .hover-light:hover {
   opacity:0.5;
 }
@@ -90,19 +125,6 @@ a:hover {
 a:visited {
   color: black;
   text-decoration: none;
-}
-
-/* Add indentation to submenu */
-.submenu {
-  margin-left: 10px;
-}
-
-.fade-in {
-  animation: fadeIn ease 5s;
-  -webkit-animation: fadeIn ease 5s;
-  -moz-animation: fadeIn ease 5s;
-  -o-animation: fadeIn ease 5s;
-  -ms-animation: fadeIn ease 5s;
 }
 
 /* Size of images in carousel */
