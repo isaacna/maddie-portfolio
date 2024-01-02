@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/maddie-portfolio/static/css/main.6c3d5230.css",
+    "main.js": "/maddie-portfolio/static/js/main.df8c3f95.js",
+    "static/js/787.17900cd8.chunk.js": "/maddie-portfolio/static/js/787.17900cd8.chunk.js",
+    "static/media/shelly.png": "/maddie-portfolio/static/media/shelly.da615978425dade00787.png",
+    "index.html": "/maddie-portfolio/index.html",
+    "main.6c3d5230.css.map": "/maddie-portfolio/static/css/main.6c3d5230.css.map",
+    "main.df8c3f95.js.map": "/maddie-portfolio/static/js/main.df8c3f95.js.map",
+    "787.17900cd8.chunk.js.map": "/maddie-portfolio/static/js/787.17900cd8.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6c3d5230.css",
+    "static/js/main.df8c3f95.js"
+  ]
+}
