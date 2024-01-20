@@ -1,17 +1,30 @@
 import './styles/style.css'
-// import './js/bootstrap.min.js'
 import 'bootstrap/dist/js/bootstrap.min.js'
 import 'bootstrap/dist/css/bootstrap.min.css'
 import 'bootstrap'
 import 'popper.js';
-import shellyImage from './assets/container/shelly.png';
+import {
+  createBrowserRouter,
+  RouterProvider,
+} from "react-router-dom";
+import Architecture from './routes/Architecture';
+import Misc from './routes/Misc';
+import Portfolio from './routes/Portfolio';
 
-const HelloWorld = () => {
-  return (
-    <div>Hello Bro</div>
-  );
-};
-
+const router = createBrowserRouter([
+  {
+    path: "/",
+    element: <Architecture />,
+  },
+  {
+    path: "misc/",
+    element: <Misc />,
+  },
+  {
+    path: "portfolio/",
+    element: <Portfolio />,
+  }
+]);
 
 function App() {
   return (
@@ -20,13 +33,13 @@ function App() {
       <div className="header-bar">
         <div className="row">
         <div className="col-sm-3 header-cell">
-          <a href="about.html" className="custom-padding-left" style={{color: 'white'}}>ARCHITECTURE</a>
+          <a href={`/`} className="custom-padding-left" style={{color: 'white'}}>ARCHITECTURE</a>
         </div>
         <div className="col-sm-3 header-cell">
-          <a href="about.html" style={{color: 'white'}}>MISC</a>
+          <a href={`/misc`} style={{color: 'white'}}>MISC</a>
         </div>
         <div className="col-sm-3 header-cell">
-          <a href="files/Farrer_Portfolio Sept 2023.pdf" target="_blank" style={{color: 'white'}}>PORTFOLIO</a> 
+          <a href={`/portfolio`} style={{color: 'white'}}>PORTFOLIO</a> 
         </div>
         <div className="col-sm-3 header-cell">
           <a href="about.html" style={{color: 'white'}}>WHO IS SHE</a>
@@ -34,48 +47,7 @@ function App() {
         </div>
       </div>
 
-      {/* Grid */}
-      <div className="modal-body">
-        <div className="container-fluid">  
-          <div className="row">
-            <div className="col-md-4 ml-auto">
-              <img id="modal1" src={shellyImage} alt="wha" className="mx-auto d-block image-grid"/>
-            </div>
-            <div className="col-md-4 ml-auto">
-              <img id="modal2" src={shellyImage} alt="" className="mx-auto d-block image-grid"/>
-            </div>
-            <div className="col-md-4 ml-auto">
-              <img id="modal3" src={shellyImage} alt="" className="mx-auto d-block image-grid"/>
-            </div>
-          </div>
-
-          <div className="row">
-            <div className="col-md-4 ml-auto">
-              <img id="modal4" src={shellyImage} alt="" className="mx-auto d-block image-grid"/>
-            </div>
-            <div className="col-md-4 ml-auto">
-              <img id="modal5" src={shellyImage} alt="" className="mx-auto d-block image-grid"/>
-            </div>
-            <div className="col-md-4 ml-auto">
-              <img id="modal6" src={shellyImage} alt="" className="mx-auto d-block image-grid"/>
-            </div>
-          </div>
-          <div id="test"></div>
-
-          <div className="row">
-            <div className="col-md-4 ml-auto">
-              <img id="modal7" src={shellyImage} alt="" className="mx-auto d-block image-grid"/>
-            </div>
-            <div className="col-md-4 ml-auto">
-              <img id="modal8" src={shellyImage} alt="" className="mx-auto d-block image-grid"/>
-            </div>
-            <div className="col-md-4 ml-auto">
-              <img id="modal9" src={shellyImage} alt="" className="mx-auto d-block image-grid"/>
-            </div>
-          </div>
-        </div>
-      </div>
-
+    <RouterProvider router={router} />
 
     {/* Footer  */}
     <div className="footer-bar">
