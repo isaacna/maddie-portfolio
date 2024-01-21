@@ -43,11 +43,10 @@
   
   /* Grid Styling */
   .image-grid {
-    /* max-height: 300px; */
-    max-width: 80%;
-    max-height: 1%;
+    max-width: 85%;
+    max-height: 33vh;
   }
-  
+
   /* Size of modal box */
   @media screen {
     .modal-dialog {
