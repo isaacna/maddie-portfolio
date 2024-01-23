@@ -10,7 +10,7 @@ function Portfolio() {
         download the PDF file.</a></p>
       </object> */}
 
-      <iframe src="https://maddie-portfolio.s3.amazonaws.com/portfolio/Jan+2024_Full+Portfolio.pdf" width="80%" height="100%"></iframe> 
+      <iframe src="https://maddie-portfolio.s3.amazonaws.com/portfolio/Jan+2024_Full+Portfolio.pdf" width="95%" height="100%"></iframe> 
 
     </div>
   );
