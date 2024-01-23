@@ -1,0 +1,5 @@
+.portfolio-container {
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    height: 100vh; /* Adjust the height as needed */
+  }
