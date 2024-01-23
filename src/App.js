@@ -6,6 +6,7 @@ import 'popper.js';
 import Architecture from './routes/Architecture';
 import Misc from './routes/Misc';
 import Portfolio from './routes/Portfolio';
+import About from './routes/About'
 import { HashRouter, Routes, Route } from 'react-router-dom';
 import Header from './components/Header';
 import Footer from './components/Footer';
@@ -21,6 +22,7 @@ function App() {
             <Route path='/' element={<Architecture/>} />
             <Route path='portfolio' element={<Portfolio />} />
             <Route path='misc' element={<Misc />} />
+            <Route path='about' element={<About />} />
           </Routes> 
         </main>
         <Footer />

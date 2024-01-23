@@ -17,7 +17,7 @@ function Header() {
           <Link to='/portfolio' style={{color: 'white'}}>PORTFOLIO</Link>
         </div>
         <div className="col-sm-3 header-cell">
-          <a href="about.html" style={{color: 'white'}}>WHO IS SHE</a>
+          <Link to='/about' style={{color: 'white'}}>WHO IS SHE</Link>
         </div>
         </div>
       </div>

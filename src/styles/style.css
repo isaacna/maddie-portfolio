@@ -15,6 +15,10 @@
     background-color: #333; /* Change this to your desired background color */
     border-top: none;
   }
+
+
+
+
   
   /* Footer */
   .footer-bar {
@@ -24,14 +28,16 @@
     position: fixed;
     width: 100%;
   }
-  
   .footer-cell {
     border:1px solid black;
   }
-  
   .custom-padding-left {
     padding-left: 15px;
   }
+
+
+
+
   
   /* Container of images */
   #container {
@@ -40,12 +46,31 @@
     display: flex;
     background-color: #FFFFFF;
   }
-  
   /* Grid Styling */
   .image-grid {
     max-width: 85%;
     max-height: 33vh;
   }
+
+
+
+
+
+  /* About page */
+  .about-text {
+    padding: 10%;
+  }
+  .about-img {
+    max-height: 50%;
+  }
+  .about-img-container {
+    margin:50px ;
+    float:right;
+    top:-40px;
+  }
+
+
+
 
   /* Size of modal box */
   @media screen {

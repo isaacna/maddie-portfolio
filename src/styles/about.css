@@ -1,0 +1,33 @@
+/* Optional custom styles */
+body {
+  padding: 20px;
+  margin: 0; /* Remove default margin */
+}
+
+.about-container {
+  display: flex;
+  /* max-width: 1000px; Adjust the maximum width of the container */
+  max-height: 100vh; /* Keeps vh in desired range */
+  margin: 0 auto; /* Center the container horizontally */
+}
+
+.text-column {
+  flex: 1; /* Take up remaining space */
+  margin-right: 5%; /* 5% margin to the right of the text column */
+  max-width: 30%;
+  padding-top: 5%;            
+}
+
+.image-column {
+    flex: 1; /* Take up remaining space */
+    display: flex;
+    justify-content: flex-end; /* Right-align the content inside the image-column */
+}
+
+.about-img {
+  height: auto;
+  display: block; /* Remove extra space below the image */
+  max-height: 70%;
+  margin-right: 0;
+  padding-top: 5%;
+}
