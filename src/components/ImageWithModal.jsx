@@ -20,13 +20,20 @@ const ImageWithModal = ({ projectData }) => {
         <Modal.Body className="modal-body">
         {projectData.images.map((image, index) => (
           <React.Fragment key={index}>
+            {/* <div className="modal-img-container">
+              <img
+                key={index}
+                src={image}
+                alt={`Image ${index + 1}`}
+                className="modal-image"
+              />
+            </div> */}
             <img
               key={index}
               src={image}
               alt={`Image ${index + 1}`}
               className="modal-image"
             />
-            <br/>
           </React.Fragment>
           ))}
         </Modal.Body>

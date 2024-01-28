@@ -27,25 +27,25 @@ function Architecture() {
     <div className="container-fluid">  
       <div className="row row-container">
         <div className="col-md-4 ml-auto">
-          <ImageWithModal projectData={CHAIN_OF_ROCKS} altText="Image 1" />
+          <ImageWithModal projectData={HOUSE_OF_INVERSIONS} altText="Image 1" />
         </div>
         <div className="col-md-4 ml-auto">
-          <ImageWithModal projectData={CONTAINER_AND_CONTAINED} altText="Image 1" />
+          <ImageWithModal projectData={PUBLIC_PALACE} altText="Image 1" />
         </div>
         <div className="col-md-4 ml-auto">
-          <ImageWithModal projectData={CRATER} altText="Image 1" />
+          <ImageWithModal projectData={SIDEWALK_STUFF} altText="Image 1" />
         </div>
       </div>
 
       <div className="row row-container">
         <div className="col-md-4 ml-auto">
-          <ImageWithModal projectData={GIFT_ECONOMY} altText="Image 1" />
+          <ImageWithModal projectData={URBAN_CHAPEL} altText="Image 1" />
         </div>
         <div className="col-md-4 ml-auto">
-          <ImageWithModal projectData={HOUSE_OF_INVERSIONS} altText="Image 1" />
+          <ImageWithModal projectData={POWER_ENERGY} altText="Image 1" />
         </div>
         <div className="col-md-4 ml-auto">
-          <ImageWithModal projectData={JUMP_CUT} altText="Image 1" />
+          <ImageWithModal projectData={CHAIN_OF_ROCKS} altText="Image 1" />
         </div>
       </div>
       <div id="test"></div>
@@ -55,35 +55,35 @@ function Architecture() {
           <ImageWithModal projectData={LIVING_INTERSECTION} altText="Image 1" />
         </div>
         <div className="col-md-4 ml-auto">
-          <ImageWithModal projectData={PATTERNS_IN_NATURE} altText="Image 1" />
-        </div>
-        <div className="col-md-4 ml-auto">
-          <ImageWithModal projectData={POWER_ENERGY} altText="Image 1" />
-        </div>
-      </div>
-
-      <div className="row row-container">
-        <div className="col-md-4 ml-auto">
-          <ImageWithModal projectData={PUBLIC_PALACE} altText="Image 1" />
-        </div>
-        <div className="col-md-4 ml-auto">
-          <ImageWithModal projectData={REST_STOP_REVISITED} altText="Image 1" />
+          <ImageWithModal projectData={CONTAINER_AND_CONTAINED} altText="Image 1" />
         </div>
         <div className="col-md-4 ml-auto">
           <ImageWithModal projectData={SENSING_TEXTURE} altText="Image 1" />
         </div>
       </div>
 
+      <div className="row row-container">
+        <div className="col-md-4 ml-auto">
+          <ImageWithModal projectData={JUMP_CUT} altText="Image 1" />
+        </div>
+        <div className="col-md-4 ml-auto">
+          <ImageWithModal projectData={CRATER} altText="Image 1" />
+        </div>
+        <div className="col-md-4 ml-auto">
+          <ImageWithModal projectData={REST_STOP_REVISITED} altText="Image 1" />
+        </div>
+      </div>
+
 
       <div className="row row-container">
         <div className="col-md-4 ml-auto">
-          <ImageWithModal projectData={SIDEWALK_STUFF} altText="Image 1" />
+          <ImageWithModal projectData={GIFT_ECONOMY} altText="Image 1" />
         </div>
         <div className="col-md-4 ml-auto">
           <ImageWithModal projectData={SOULARD_MARKETPLACE} altText="Image 1" />
         </div>
         <div className="col-md-4 ml-auto">
-          <ImageWithModal projectData={URBAN_CHAPEL} altText="Image 1" />
+          <ImageWithModal projectData={PATTERNS_IN_NATURE} altText="Image 1" />
         </div>
       </div>
     </div>
