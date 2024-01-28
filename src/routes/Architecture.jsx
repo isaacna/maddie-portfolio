@@ -8,9 +8,11 @@ import {
     CONTAINER_AND_CONTAINED,
     CRATER,
     GIFT_ECONOMY,
+    HEWITT,
     HOUSE_OF_INVERSIONS,
     JUMP_CUT,
     LIVING_INTERSECTION,
+    MDEAS,
     PATTERNS_IN_NATURE,
     POWER_ENERGY,
     PUBLIC_PALACE,
@@ -84,6 +86,15 @@ function Architecture() {
         </div>
         <div className="col-md-4 ml-auto">
           <ImageWithModal projectData={PATTERNS_IN_NATURE} altText="Image 1" />
+        </div>
+      </div>
+
+      <div className="row row-container">
+        <div className="col-md-4 ml-auto">
+          <ImageWithModal projectData={HEWITT} altText="Image 1" />
+        </div>
+        <div className="col-md-4 ml-auto">
+          <ImageWithModal projectData={MDEAS} altText="Image 1" />
         </div>
       </div>
     </div>

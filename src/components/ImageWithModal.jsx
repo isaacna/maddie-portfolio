@@ -2,6 +2,7 @@
 import React, { useState } from 'react';
 import '../styles/style.css'
 import { Modal } from 'react-bootstrap';
+import Parser from "html-react-parser";
 
 const ImageWithModal = ({ projectData }) => {
     const [fullscreen, setFullscreen] = useState(true);
@@ -24,7 +25,7 @@ const ImageWithModal = ({ projectData }) => {
             <br />
             {projectData.text.map((text) => (
               <React.Fragment>
-                <span className="project-header">{text}</span>
+                <span className="project-header">{Parser(text)}</span>
                 <br />
               </React.Fragment>
             ))}
