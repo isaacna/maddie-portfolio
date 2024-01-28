@@ -344,7 +344,7 @@ export const SENSING_TEXTURE = {
     "https://maddie-portfolio.s3.amazonaws.com/architecture/sensing_texture/image_order/09.jpg",
     "https://maddie-portfolio.s3.amazonaws.com/architecture/sensing_texture/image_order/10.gif",
     "https://maddie-portfolio.s3.amazonaws.com/architecture/sensing_texture/image_order/11.gif",
-    "https://maddie-portfolio.s3.amazonaws.com/architecture/sensing_texture/image_order/12.mp4",
+    "https://maddie-portfolio.s3.amazonaws.com/architecture/sensing_texture/image_order/12.gif",
     "https://maddie-portfolio.s3.amazonaws.com/architecture/sensing_texture/image_order/13.jpg",
     "https://maddie-portfolio.s3.amazonaws.com/architecture/sensing_texture/image_order/14.jpg",
     "https://maddie-portfolio.s3.amazonaws.com/architecture/sensing_texture/image_order/15.jpg",
