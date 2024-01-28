@@ -2,7 +2,7 @@ import React from 'react';
 import 'bootstrap/dist/js/bootstrap.min.js'
 import 'bootstrap/dist/css/bootstrap.min.css'
 import 'bootstrap'
-import ImageWithModal from '../components/ImageWithModal'; // Adjust the path based on your project structure
+import ImageWithModal from '../components/ImageWithModal';
 import { 
     CHAIN_OF_ROCKS,
     CONTAINER_AND_CONTAINED,
