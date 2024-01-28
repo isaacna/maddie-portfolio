@@ -5,7 +5,7 @@ export const CHAIN_OF_ROCKS = {
   name: "Chain of Rocks Bridge",
   header1: "Mississippi River, St. Louis / Critic Anna Ives",
   header2: "Washington University in St. Louis / 2017",
-  text: "Located at the intersection of both natural and synthetic infrastructures, the steel truss Chain of Rocks Bridge’s 22-degree bend is used in this project as a tool to re-imagine the American hostel. Given pathway variability, which route does naturally flowing water traverse? Multiple twine, wire, and wood root material studies were used to document and quantify the movement of water with radial graphs. Graphed in relation to dampness, the data verified that water flows on the path of least resistance, from high ground to low ground. The central stairway operates as the tap root while the path of least resistance leads one down to the communal living space, diverging from the ascending and safely secluded private bedroom path.",
+  text: [],
   images: [
     "https://maddie-portfolio.s3.amazonaws.com/architecture/chain_of_rocks/image_order/01_FIRST+IMAGE+PLS.png",
     "https://maddie-portfolio.s3.amazonaws.com/architecture/chain_of_rocks/image_order/1.jpg",
@@ -23,10 +23,7 @@ export const CONTAINER_AND_CONTAINED = {
   name: "Container and Contained",
   header1: "Los Angeles, CA / Critic Lawrence Blough",
   header2: "Washington University in St. Louis / 2018",
-  text: "Clusters of private units extend above shared community space below, permitting groups of similar minded digital nomads to live together in collaborative vertical neighborhoods. "
-  + "A web of interstitial space connects patios, balconies, and stairways that extend over the open atrium to support networking and a variety of entry and exit points to the building. "
-  + "Shades of privacy flow from the publicly accessible lobby on the lower level to all-embracing sheltered privacy in one’s 10’x10’ unit. "
-  + "This flexibility accommodates changing live and work situations, allowing residents to occupy the building longer and therefore in a more sustainable manner. ",
+  text: [],
   images: [
     "https://maddie-portfolio.s3.amazonaws.com/architecture/container_and_contained/image_order/1.jpg",
     "https://maddie-portfolio.s3.amazonaws.com/architecture/container_and_contained/image_order/2.jpg",
@@ -58,7 +55,7 @@ export const CRATER = {
   name: "",
   header1: "",
   header2: "",
-  text: "",
+  text: [],
   images: [
     "https://maddie-portfolio.s3.amazonaws.com/architecture/crater/image_order/1.png",
     "https://maddie-portfolio.s3.amazonaws.com/architecture/crater/image_order/2.jpg",
@@ -104,7 +101,7 @@ export const GIFT_ECONOMY = {
   name: "Core III Gift Economy",
   header1: "",
   header2: "",
-  text: "",
+  text: [],
   images: [
     "https://maddie-portfolio.s3.amazonaws.com/architecture/gift_economy/image_order/01_first Image.jpg",
     "https://maddie-portfolio.s3.amazonaws.com/architecture/gift_economy/image_order/1.2.png",
@@ -151,7 +148,10 @@ export const HOUSE_OF_INVERSIONS = {
   name: "House of Inversions",
   header1: "Core 1 / Critic Marina Correia",
   header2: "Harvard GSD / 2021",
-  text: "What dictates how we live beyond the physical? In this project, I investigated conditions of the immaterial in the domestic. I considered how shadows, occupying the site, and material inconsistencies may invite users to seek varying levels of exposure, both in terms of light and social experiences. The resulting structure creates different degrees of interiority, suiting two contrasting living experiences. The upper unit’s open-air patio and wide glazing fosters a sense of display, disclosure, exhibition, and uncovering. The second level links high and low exposure through a controlling screen—a demising wall—between user and the outdoors. Fully inserted into the topography, the lower level’s highly controlled aperture establishes a house of inversions.",
+  text: [
+    "What dictates how we live beyond the physical? In this project, I investigated conditions of the immaterial in the domestic. I considered how shadows, occupying the site, and material inconsistencies may invite users to seek varying levels of exposure, both in terms of light and social experiences. The resulting structure creates different degrees of interiority, suiting two contrasting living experiences.",
+    "The upper unit’s open-air patio and wide glazing fosters a sense of display, disclosure, exhibition, and uncovering. The second level links high and low exposure through a controlling screen—a demising wall—between user and the outdoors. Fully inserted into the topography, the lower level’s highly controlled aperture establishes a house of inversions."
+    ],
   images: [
     "https://maddie-portfolio.s3.amazonaws.com/architecture/house_of_inversions/01_First image.jpg",
     "https://maddie-portfolio.s3.amazonaws.com/architecture/house_of_inversions/2.jpg",
@@ -176,7 +176,9 @@ export const JUMP_CUT = {
   name: "Jump Cut: Coherence in Discontinuities",
   header1: "Core 1 / Critic Marina Correia",
   header2: "Harvard GSD / 2021",
-  text: "Tasked with connecting two seemingly incompatible sections within one building, I designed a coherent exterior envelope that accommodates incongruent interior characters. Two arms branch from the pivot point that connects the two sections, opening into a void that serves as a theater. The vertical access is located at the hinge, while audience functions extrude in opposite direction from the void. The massing suggests a consistency, but offers several open programmatic possibilities and two-way observation across angles, disciplines, and uses.",
+  text: [
+    "Tasked with connecting two seemingly incompatible sections within one building, I designed a coherent exterior envelope that accommodates incongruent interior characters. Two arms branch from the pivot point that connects the two sections, opening into a void that serves as a theater. The vertical access is located at the hinge, while audience functions extrude in opposite direction from the void. The massing suggests a consistency, but offers several open programmatic possibilities and two-way observation across angles, disciplines, and uses."
+  ],
   images: [
     "https://maddie-portfolio.s3.amazonaws.com/architecture/jump_cut/image_order/1.jpg",
     "https://maddie-portfolio.s3.amazonaws.com/architecture/jump_cut/image_order/1.5.jpg",
@@ -204,9 +206,11 @@ export const LIVING_INTERSECTION = {
   name: "Living Intersection",
   header1: "Dutchtown, St. Louis / Critic Linda Samuels",
   header2: "Washington University in St. Louis / 2017",
-  text: "The intense, multi-lane traffic knot in Dutchtown, St. Louis is a collision of speeds, modalities, land uses, people, waste, cultures, historical wealth, and future opportunity. The studio analyzed two government initiatives—EPA’s Environmental Justice Collaborative Problem-Solving grant program and the city’s multi-billion dollar Metrolink expansion—to propose systems that reduce illegal dumping and improve community capacity through strategies of education, action, and creative upcycling. \n " +
+  text: [
+    "The intense, multi-lane traffic knot in Dutchtown, St. Louis is a collision of speeds, modalities, land uses, people, waste, cultures, historical wealth, and future opportunity. The studio analyzed two government initiatives—EPA’s Environmental Justice Collaborative Problem-Solving grant program and the city’s multi-billion dollar Metrolink expansion—to propose systems that reduce illegal dumping and improve community capacity through strategies of education, action, and creative upcycling. \n " +
 
   "Incorporating the knowledge gained from engagement with neighbors and businesses, the new station for the Metrolink stop responds to the waste reuse and political opportunities found on the site. The proposed design spurs economic growth through formal and informal opportunity as seen within the sheltered local vendor arcade.",
+],
   images: [
     "https://maddie-portfolio.s3.amazonaws.com/architecture/living_intersection/image_order/1.jpg",
     "https://maddie-portfolio.s3.amazonaws.com/architecture/living_intersection/image_order/2.png",
@@ -228,7 +232,7 @@ export const PATTERNS_IN_NATURE = {
   name: "Patterns in Nature: Topographic Extensions",
   header1: "",
   header2: "",
-  text: "",
+  text: [],
   images: [
     "https://maddie-portfolio.s3.amazonaws.com/architecture/patterns_in_nature/image_order/1.jpg",
     "https://maddie-portfolio.s3.amazonaws.com/architecture/patterns_in_nature/image_order/2.jpg",
@@ -253,7 +257,7 @@ export const POWER_ENERGY = {
   name: "",
   header1: "",
   header2: "",
-  text: "",
+  text: [],
   images: [
     "https://maddie-portfolio.s3.amazonaws.com/architecture/power_energy/image_order/1.jpg",
     "https://maddie-portfolio.s3.amazonaws.com/architecture/power_energy/image_order/2.jpg",
@@ -271,7 +275,7 @@ export const PUBLIC_PALACE = {
   name: "",
   header1: "",
   header2: "",
-  text: "",
+  text: [],
   images: [
     "https://maddie-portfolio.s3.amazonaws.com/architecture/public_palace/image_order/01.jpg",
     "https://maddie-portfolio.s3.amazonaws.com/architecture/public_palace/image_order/01.2.jpg",
@@ -311,7 +315,9 @@ export const REST_STOP_REVISITED = {
   name: "Rest Stop Revisited",
   header1: "Duluth, Minnesota / Critic Jennifer Yoos",
   header2: "Washington University in St. Louis / 2019",
-  text: "Informed by its dramatic, forested context as well by its rural context above the city of Duluth, the rest stop integrates practical programs with play. Play occupies the landscape. Pedestrian paths are lined with inhabitable concrete walls that vary in height, density, and utility. They may serve as playground infrastructure, punctured with holes and foot holds, or act as a guidance tool along hidden trails. They curve seamlessly into the buildings to create an effortless transition between exposed path and shelter, operating as a form of pre-cast cladding shading.",
+  text: [
+    "Informed by its dramatic, forested context as well by its rural context above the city of Duluth, the rest stop integrates practical programs with play. Play occupies the landscape. Pedestrian paths are lined with inhabitable concrete walls that vary in height, density, and utility. They may serve as playground infrastructure, punctured with holes and foot holds, or act as a guidance tool along hidden trails. They curve seamlessly into the buildings to create an effortless transition between exposed path and shelter, operating as a form of pre-cast cladding shading."
+  ],
   images: [
     "https://maddie-portfolio.s3.amazonaws.com/architecture/reststop_revisited/image_order/01_First image.jpg",
     "https://maddie-portfolio.s3.amazonaws.com/architecture/reststop_revisited/image_order/1.2.jpg",
@@ -331,7 +337,7 @@ export const SENSING_TEXTURE = {
   name: "",
   header1: "",
   header2: "",
-  text: "",
+  text: [],
   images: [
     "https://maddie-portfolio.s3.amazonaws.com/architecture/sensing_texture/image_order/01.jpg",
     "https://maddie-portfolio.s3.amazonaws.com/architecture/sensing_texture/image_order/02+jackfruit+scan.gif",
@@ -374,7 +380,7 @@ export const SIDEWALK_STUFF = {
   name: "",
   header1: "",
   header2: "",
-  text: "",
+  text: [],
   images: [
     "https://maddie-portfolio.s3.amazonaws.com/architecture/sidewalk_stuff/image_order/1.jpg",
     "https://maddie-portfolio.s3.amazonaws.com/architecture/sidewalk_stuff/image_order/2.jpg",
@@ -424,7 +430,7 @@ export const SOULARD_MARKETPLACE = {
   name: "",
   header1: "",
   header2: "",
-  text: "",
+  text: [],
   images: [
     "https://maddie-portfolio.s3.amazonaws.com/architecture/soulard_marketplace/image_order/01.png",
     "https://maddie-portfolio.s3.amazonaws.com/architecture/soulard_marketplace/image_order/02.png",
@@ -448,7 +454,7 @@ export const URBAN_CHAPEL = {
   name: "",
   header1: "",
   header2: "",
-  text: "",
+  text: [],
   images: [
     "https://maddie-portfolio.s3.amazonaws.com/architecture/urban_chapel/image_order/1.jpg",
     "https://maddie-portfolio.s3.amazonaws.com/architecture/urban_chapel/image_order/2.jpg",
