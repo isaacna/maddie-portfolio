@@ -91,10 +91,10 @@ function Architecture() {
 
       <div className="row row-container">
         <div className="col-md-4 ml-auto">
-          <ImageWithModal projectData={HEWITT} altText="Image 1" />
+          <ImageWithModal projectData={MDEAS} altText="Image 1" />
         </div>
         <div className="col-md-4 ml-auto">
-          <ImageWithModal projectData={MDEAS} altText="Image 1" />
+          <ImageWithModal projectData={HEWITT} altText="Image 1" />
         </div>
       </div>
     </div>
