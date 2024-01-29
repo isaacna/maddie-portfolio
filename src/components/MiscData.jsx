@@ -49,7 +49,7 @@ export const MIXED_MEDIA = {
     name: "Mixed Media",
     header1: "Personal Project / 2015",
     text: [
-      "Barbie doll shoes, starburst wrappers, pastels, magazine collages, color pencils, watercolors, and joy.",
+      "Barbie doll shoes, starburst wrappers, pastels, magazine collages, color pencils, and watercolors.",
     ],
     images: [
       "https://maddie-portfolio.s3.amazonaws.com/misc/mixed_media/image_order/1.png",
