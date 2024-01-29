@@ -200,7 +200,7 @@ export const PSY = {
     ],
     images: [
       "https://maddie-portfolio.s3.amazonaws.com/misc/psy/image_order/1.jpg",
-      "https://maddie-portfolio.s3.amazonaws.com/misc/psy/image_order/2.heic",
+      "https://maddie-portfolio.s3.amazonaws.com/misc/psy/image_order/2.jpg",
       "https://maddie-portfolio.s3.amazonaws.com/misc/psy/image_order/3.jpeg",
       "https://maddie-portfolio.s3.amazonaws.com/misc/psy/image_order/4.jpg",
     ],
@@ -233,7 +233,7 @@ export const TATTOOS = {
       "https://maddie-portfolio.s3.amazonaws.com/misc/tattoos/1.jpg",
       "https://maddie-portfolio.s3.amazonaws.com/misc/tattoos/2.jpg",
       "https://maddie-portfolio.s3.amazonaws.com/misc/tattoos/3.JPG",
-      "https://maddie-portfolio.s3.amazonaws.com/misc/tattoos/4.HEIC",
+      "https://maddie-portfolio.s3.amazonaws.com/misc/tattoos/4.jpg",
     ],
     thumbnail: "https://maddie-portfolio.s3.amazonaws.com/misc/tattoos/title_image/title.jpg"
 }
