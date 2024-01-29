@@ -14,7 +14,7 @@ function Header() {
           <Link to='/misc' className="link" style={{color: 'white'}}>MISC</Link>
         </div>
         <div className="col-sm-3 header-cell">
-          <Link to='/portfolio' className="link" style={{color: 'white'}}>PORTFOLIO</Link>
+          <Link to='https://drive.google.com/file/d/1pg4JK9asNml85M6cPAqh4KZr1PaaBM1C/view' target="_blank" className="link" style={{color: 'white'}}>PORTFOLIO</Link>
         </div>
         <div className="col-sm-3 header-cell">
           <Link to='/about' className="link" style={{color: 'white'}}>WHO IS SHE</Link>
