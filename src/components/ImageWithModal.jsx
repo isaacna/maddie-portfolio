@@ -20,6 +20,7 @@ const ImageWithModal = ({ projectData }) => {
       <Modal show={show} fullscreen={fullscreen} onHide={() => setShow(false)}>        
         <Modal.Body className="modal-body">
           <div>
+            <span className="project-header"><strong>{projectData.name}</strong></span>
             <span className="project-header"><strong>{projectData.header1}</strong></span>
             <span className="project-header"><strong>{projectData.header2}</strong></span>
             <br />
