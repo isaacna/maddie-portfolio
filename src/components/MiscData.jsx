@@ -30,17 +30,17 @@ export const OIL_PAINTINGS = {
     ],
     images: [
       "https://maddie-portfolio.s3.amazonaws.com/misc/oil_paintings/image_order/01_first image.jpg",      
-      "https://maddie-portfolio.s3.amazonaws.com/misc/oil_pantings/image_order/02.jpg",
-      "https://maddie-portfolio.s3.amazonaws.com/misc/oil_pantings/image_order/3.jpg",
-      "https://maddie-portfolio.s3.amazonaws.com/misc/oil_pantings/image_order/4.jpg",
-      "https://maddie-portfolio.s3.amazonaws.com/misc/oil_pantings/image_order/5.jpg",
-      "https://maddie-portfolio.s3.amazonaws.com/misc/oil_pantings/image_order/6.jpg",
-      "https://maddie-portfolio.s3.amazonaws.com/misc/oil_pantings/image_order/7.jpg",
-      "https://maddie-portfolio.s3.amazonaws.com/misc/oil_pantings/image_order/8.jpg",
-      "https://maddie-portfolio.s3.amazonaws.com/misc/oil_pantings/image_order/9.jpg",
-      "https://maddie-portfolio.s3.amazonaws.com/misc/oil_pantings/image_order/10.jpg",
-      "https://maddie-portfolio.s3.amazonaws.com/misc/oil_pantings/image_order/11.jpg",
-      "https://maddie-portfolio.s3.amazonaws.com/misc/oil_pantings/image_order/12.jpg",
+      "https://maddie-portfolio.s3.amazonaws.com/misc/oil_paintings/image_order/02.jpg",
+      "https://maddie-portfolio.s3.amazonaws.com/misc/oil_paintings/image_order/3.jpg",
+      "https://maddie-portfolio.s3.amazonaws.com/misc/oil_paintings/image_order/4.jpg",
+      "https://maddie-portfolio.s3.amazonaws.com/misc/oil_paintings/image_order/5.jpg",
+      "https://maddie-portfolio.s3.amazonaws.com/misc/oil_paintings/image_order/6.jpg",
+      "https://maddie-portfolio.s3.amazonaws.com/misc/oil_paintings/image_order/7.jpg",
+      "https://maddie-portfolio.s3.amazonaws.com/misc/oil_paintings/image_order/8.jpg",
+      "https://maddie-portfolio.s3.amazonaws.com/misc/oil_paintings/image_order/9.jpg",
+      "https://maddie-portfolio.s3.amazonaws.com/misc/oil_paintings/image_order/10.jpg",
+      "https://maddie-portfolio.s3.amazonaws.com/misc/oil_paintings/image_order/11.jpg",
+      "https://maddie-portfolio.s3.amazonaws.com/misc/oil_paintings/image_order/12.jpg",
     ],
     thumbnail: "https://maddie-portfolio.s3.amazonaws.com/misc/oil_paintings/title/title.jpg"
 }
@@ -255,8 +255,8 @@ export const EARRINGS = {
     header1: "Metal and Paper / 2023",
     text: [],
     images: [
-      "https://maddie-portfolio.s3.amazonaws.com/misc/earrings/image_order/1.jpg",
-      "https://maddie-portfolio.s3.amazonaws.com/misc/earrings/image_order/2.jpg",
+      "https://maddie-portfolio.s3.amazonaws.com/misc/earring/image_order/1.jpg",
+      "https://maddie-portfolio.s3.amazonaws.com/misc/earring/image_order/2.jpg",
     ],
     thumbnail: "https://maddie-portfolio.s3.amazonaws.com/misc/earring/title_image/earring.jpg"
 }
