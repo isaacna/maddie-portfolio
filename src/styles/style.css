@@ -18,21 +18,24 @@ html, body {
 
 /* Menu bar  */
 .header-bar {
-    z-index: 1;
-    top: 0;
-    left: 0;
-    width: 100%;
-    background-color: #333; /* Change this to your desired background color */
-    height: 20px; /* Change this to your desired height */
-    color: #333; /* Change this to your desired text color */
-    position: fixed;
-    /* Add any other styles you want */
-  }
-  .header-cell {
-    border:1px solid white;
-    background-color: #333; /* Change this to your desired background color */
-    border-top: none;
-  }
+  z-index: 1;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #333; /* Change this to your desired background color */
+  height: 20px; /* Change this to your desired height */
+  color: #333; /* Change this to your desired text color */
+  position: fixed;
+  /* Add any other styles you want */
+}
+.header-cell {
+  border:1px solid white;
+  background-color: #333; /* Change this to your desired background color */
+  border-top: none;
+}
+.link {
+  text-decoration: none;
+}
 
 
   
@@ -49,7 +52,8 @@ html, body {
     border:1px solid black;
   }
   .custom-padding-left {
-    padding-left: 15px;
+    /* padding-left: 15px; */
+    margin-left: 15px;
   }
 
 

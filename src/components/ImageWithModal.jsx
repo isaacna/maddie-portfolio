@@ -33,12 +33,19 @@ const ImageWithModal = ({ projectData }) => {
           </div>
           {projectData.images.map((image, index) => (
             <React.Fragment key={index}>
-              <img
-                key={index}
-                src={image}
-                alt={`Image ${index + 1}`}
-                className="modal-image"
-              />
+              {image.endsWith('.MOV') ? (
+                <video controls>
+                  <source src={image} type="video/quicktime" className="modal-image"/>
+                  Your browser does not support the video tag.
+                </video>
+              ) : (
+                <img
+                  key={index}
+                  src={image}
+                  alt={`Image ${index + 1}`}
+                  className="modal-image"
+                />
+              )}
             </React.Fragment>
             ))}
         </Modal.Body>
