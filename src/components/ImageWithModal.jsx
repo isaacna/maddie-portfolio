@@ -17,7 +17,7 @@ const ImageWithModal = ({ projectData }) => {
   return (
     <>
       <img id="modal1"  onClick={handleShow} src={projectData.thumbnail} alt="" className="mx-auto d-block image-grid"/>
-      <Modal show={show} fullscreen={fullscreen} centered onHide={() => setShow(false)}>        
+      <Modal show={show} fullscreen={fullscreen} onHide={() => setShow(false)}>        
         <Modal.Body className="modal-body">
           <div>
             <span className="project-header"><strong>{projectData.name}</strong></span>
