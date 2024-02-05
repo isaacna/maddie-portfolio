@@ -467,7 +467,7 @@ export const SENSING_TEXTURE = {
 
 export const SIDEWALK_STUFF = {
   name: "Sidewalk Stuff",
-  header1: "Sidewalk Stuff / Partner Randy Crandon / Critic Jenny French",
+  header1: "Partner Randy Crandon / Critic Jenny French",
   header2: "Harvard GSD / 2023",
   text: [
     "This cooperative housing proposal challenges the illusion of self-sufficient private accumulation by promoting material sharing on an infrastructural scale, redirecting waste streams, and fostering a circular economy. It acknowledges the typologies of suburban sprawl, such as the American suburban home and office park building, which have shaped domesticity and comfort.",
