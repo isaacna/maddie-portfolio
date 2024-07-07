@@ -1,4 +1,5 @@
 import React from 'react';
+
 import 'bootstrap/dist/js/bootstrap.min.js'
 import 'bootstrap/dist/css/bootstrap.min.css'
 import 'bootstrap'
@@ -16,6 +17,7 @@ import {
     PATTERNS_IN_NATURE,
     POWER_ENERGY,
     PUBLIC_PALACE,
+    RESHAPING_REMNANTS,
     REST_STOP_REVISITED,
     SENSING_TEXTURE,
     SIDEWALK_STUFF,
@@ -95,6 +97,9 @@ function Architecture() {
         </div>
         <div className="col-md-4 ml-auto">
           <ImageWithModal projectData={HEWITT} altText="Image 1" />
+        </div>
+        <div className="col-md-4 ml-auto">
+          <ImageWithModal projectData={RESHAPING_REMNANTS} altText="Image 1" />
         </div>
       </div>
     </div>
