@@ -1,6 +1,6 @@
 // import React from 'react';
 import React, { useEffect, useState } from 'react';
-import { useLocation } from 'react-router-dom';
+import { useLocation, useNavigate } from 'react-router-dom';
 
 import 'bootstrap/dist/js/bootstrap.min.js'
 import 'bootstrap/dist/css/bootstrap.min.css'
@@ -29,6 +29,7 @@ import {
 
 function Architecture() {
   const location = useLocation();
+  const navigate = useNavigate();
   const [modalOpen, setModalOpen] = useState(false);
   const [projectData, setProjectData] = useState(null);
 
@@ -47,6 +48,23 @@ function Architecture() {
     }
   }, [location]);
 
+  const openModal = (projectId) => {
+    const projectDataMap = {
+      'HOUSE_OF_INVERSIONS': HOUSE_OF_INVERSIONS,
+      'PUBLIC_PALACE': PUBLIC_PALACE,
+      'RESHAPING_REMNANTS': RESHAPING_REMNANTS,
+      // ... add all other projects here ...
+    };
+    setProjectData(projectDataMap[projectId]);
+    setModalOpen(true);
+    navigate(`${location.pathname}?project=${projectId}`);
+  };
+
+  const closeModal = () => {
+    setModalOpen(false);
+    navigate(location.pathname);
+  }
+
   return (
     <div>
     <div className="container-fluid">  
@@ -57,11 +75,8 @@ function Architecture() {
               projectData={HOUSE_OF_INVERSIONS} 
               altText="Image 1" 
               isOpen={modalOpen && projectData === HOUSE_OF_INVERSIONS} 
-              onOpen={() => {
-                setProjectData(HOUSE_OF_INVERSIONS);
-                setModalOpen(true);
-              }}
-              onClose={() => setModalOpen(false)} 
+              onOpen={() => openModal('HOUSE_OF_INVERSIONS')}
+              onClose={() => closeModal()} 
             />
         </div>
         <div className="col-md-4 ml-auto">
