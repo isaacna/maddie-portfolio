@@ -27,12 +27,6 @@ import {
     URBAN_CHAPEL
 } from '../components/ProjectData';
 
-function Architecture() {
-  const location = useLocation();
-  const navigate = useNavigate();
-  const [modalOpen, setModalOpen] = useState(false);
-  const [projectData, setProjectData] = useState(null);
-
   // TODO: Make this cleaner
   const projectDataMap = {
     'HOUSE_OF_INVERSIONS': HOUSE_OF_INVERSIONS,
@@ -55,6 +49,13 @@ function Architecture() {
     'RESHAPING_REMNANTS': RESHAPING_REMNANTS,
   };
 
+function Architecture() {
+  const location = useLocation();
+  const navigate = useNavigate();
+  const [modalOpen, setModalOpen] = useState(false);
+  const [projectData, setProjectData] = useState(null);
+
+  // TODO: Move this into a shared util file w/ Projects
   // Check the location for a project ID and open the modal if one exists
   useEffect(() => {
     const projectId = new URLSearchParams(location.search).get('project');
