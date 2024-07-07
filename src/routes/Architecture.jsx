@@ -27,27 +27,27 @@ import {
     URBAN_CHAPEL
 } from '../components/ProjectData';
 
-  // TODO: Make this cleaner
-  const projectDataMap = {
-    'HOUSE_OF_INVERSIONS': HOUSE_OF_INVERSIONS,
-    'PUBLIC_PALACE': PUBLIC_PALACE,
-    'SIDEWALK_STUFF': SIDEWALK_STUFF,
-    'URBAN_CHAPEL': URBAN_CHAPEL,
-    'POWER_ENERGY': POWER_ENERGY,
-    'CHAIN_OF_ROCKS': CHAIN_OF_ROCKS,
-    'LIVING_INTERSECTION': LIVING_INTERSECTION,
-    'CONTAINER_AND_CONTAINED': CONTAINER_AND_CONTAINED,
-    'SENSING_TEXTURE': SENSING_TEXTURE,
-    'JUMP_CUT': JUMP_CUT,
-    'CRATER': CRATER,
-    'REST_STOP_REVISITED': REST_STOP_REVISITED,
-    'GIFT_ECONOMY': GIFT_ECONOMY,
-    'SOULARD_MARKETPLACE': SOULARD_MARKETPLACE,
-    'PATTERNS_IN_NATURE': PATTERNS_IN_NATURE,
-    'MDEAS': MDEAS,
-    'HEWITT': HEWITT,
-    'RESHAPING_REMNANTS': RESHAPING_REMNANTS,
-  };
+// TODO: Make this cleaner
+const projectDataMap = {
+  'HOUSE_OF_INVERSIONS': HOUSE_OF_INVERSIONS,
+  'PUBLIC_PALACE': PUBLIC_PALACE,
+  'SIDEWALK_STUFF': SIDEWALK_STUFF,
+  'URBAN_CHAPEL': URBAN_CHAPEL,
+  'POWER_ENERGY': POWER_ENERGY,
+  'CHAIN_OF_ROCKS': CHAIN_OF_ROCKS,
+  'LIVING_INTERSECTION': LIVING_INTERSECTION,
+  'CONTAINER_AND_CONTAINED': CONTAINER_AND_CONTAINED,
+  'SENSING_TEXTURE': SENSING_TEXTURE,
+  'JUMP_CUT': JUMP_CUT,
+  'CRATER': CRATER,
+  'REST_STOP_REVISITED': REST_STOP_REVISITED,
+  'GIFT_ECONOMY': GIFT_ECONOMY,
+  'SOULARD_MARKETPLACE': SOULARD_MARKETPLACE,
+  'PATTERNS_IN_NATURE': PATTERNS_IN_NATURE,
+  'MDEAS': MDEAS,
+  'HEWITT': HEWITT,
+  'RESHAPING_REMNANTS': RESHAPING_REMNANTS,
+};
 
 function Architecture() {
   const location = useLocation();
@@ -253,10 +253,10 @@ function Architecture() {
         </div>
         <div className="col-md-4 ml-auto">
           <ImageWithModal 
-              projectData={HEWITT} 
+              projectData={RESHAPING_REMNANTS} 
               altText="Image 1" 
-              isOpen={modalOpen && projectData === HEWITT} 
-              onOpen={() => openModal('HEWITT')}
+              isOpen={modalOpen && projectData === RESHAPING_REMNANTS} 
+              onOpen={() => openModal('RESHAPING_REMNANTS')}
               onClose={() => closeModal()} 
             />
         </div>
