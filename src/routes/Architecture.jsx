@@ -1,4 +1,6 @@
-import React from 'react';
+// import React from 'react';
+import React, { useEffect, useState } from 'react';
+import { useLocation } from 'react-router-dom';
 
 import 'bootstrap/dist/js/bootstrap.min.js'
 import 'bootstrap/dist/css/bootstrap.min.css'
@@ -26,12 +28,41 @@ import {
 } from '../components/ProjectData';
 
 function Architecture() {
+  const location = useLocation();
+  const [modalOpen, setModalOpen] = useState(false);
+  const [projectData, setProjectData] = useState(null);
+
+  // Check the location for a project ID and open the modal if one exists
+  useEffect(() => {
+    const projectId = new URLSearchParams(location.search).get('project');
+    if (projectId) {
+      const projectDataMap = {
+        'HOUSE_OF_INVERSIONS': HOUSE_OF_INVERSIONS,
+        'PUBLIC_PALACE': PUBLIC_PALACE,
+        'RESHAPING_REMNANTS': RESHAPING_REMNANTS,
+        // ... add all other projects here ...
+      };
+      setProjectData(projectDataMap[projectId]);
+      setModalOpen(true);
+    }
+  }, [location]);
+
   return (
     <div>
     <div className="container-fluid">  
       <div className="row row-container">
         <div className="col-md-4 ml-auto">
-          <ImageWithModal projectData={HOUSE_OF_INVERSIONS} altText="Image 1" />
+          {/* <ImageWithModal projectData={HOUSE_OF_INVERSIONS} altText="Image 1" /> */}
+          <ImageWithModal 
+              projectData={HOUSE_OF_INVERSIONS} 
+              altText="Image 1" 
+              isOpen={modalOpen && projectData === HOUSE_OF_INVERSIONS} 
+              onOpen={() => {
+                setProjectData(HOUSE_OF_INVERSIONS);
+                setModalOpen(true);
+              }}
+              onClose={() => setModalOpen(false)} 
+            />
         </div>
         <div className="col-md-4 ml-auto">
           <ImageWithModal projectData={PUBLIC_PALACE} altText="Image 1" />
