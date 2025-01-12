@@ -22,8 +22,11 @@ import {
     RESHAPING_REMNANTS,
     REST_STOP_REVISITED,
     SENSING_TEXTURE,
+    SEAGRAM,
     SIDEWALK_STUFF,
     SOULARD_MARKETPLACE,
+    THESIS_PREP_BOOK,
+    MOVING_STONE,
     URBAN_CHAPEL
 } from '../components/ProjectData';
 
@@ -47,6 +50,9 @@ const projectDataMap = {
   'MDEAS': MDEAS,
   'HEWITT': HEWITT,
   'RESHAPING_REMNANTS': RESHAPING_REMNANTS,
+  'SEAGRAM': SEAGRAM,
+  'THESIS_PREP_BOOK': THESIS_PREP_BOOK,
+  'MOVING_STONE': MOVING_STONE,
 };
 
 function Architecture() {
@@ -279,6 +285,40 @@ function Architecture() {
             />
         </div>
       </div>
+
+      <div className="row row-container">
+        <div className="col-md-4 ml-auto">
+          <ImageWithModal 
+              projectData={SEAGRAM} 
+              altText="Image 1" 
+              isOpen={modalOpen && projectData === SEAGRAM} 
+              onOpen={() => openModal('SEAGRAM')}
+              onClose={() => closeModal()} 
+              loading="lazy"
+            />
+        </div>
+        <div className="col-md-4 ml-auto">
+          <ImageWithModal 
+              projectData={THESIS_PREP_BOOK} 
+              altText="Image 1" 
+              isOpen={modalOpen && projectData === THESIS_PREP_BOOK} 
+              onOpen={() => openModal('THESIS_PREP_BOOK')}
+              onClose={() => closeModal()} 
+              loading="lazy"
+            />
+        </div>
+        <div className="col-md-4 ml-auto">
+          <ImageWithModal 
+              projectData={MOVING_STONE} 
+              altText="Image 1" 
+              isOpen={modalOpen && projectData === MOVING_STONE} 
+              onOpen={() => openModal('MOVING_STONE')}
+              onClose={() => closeModal()} 
+              loading="lazy"
+            />
+        </div>
+      </div>
+
     </div>
   </div>
   );

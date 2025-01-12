@@ -384,3 +384,24 @@ export const CONCRETE_STOOL = {
     ],
     thumbnail: "https://maddie-portfolio.s3.amazonaws.com/misc/concrete_stool/title_image/title.jpg"
 }
+
+export const TRAVEL_PHOTOGRAPHY = {
+  name: "",
+  header1: "",
+  header2: "",
+  text: [
+    "",
+    ""
+  ],
+  images: [
+    "https://maddie-portfolio.s3.amazonaws.com/misc/concrete_stool/image_order/0.jpg",
+    "https://maddie-portfolio.s3.amazonaws.com/misc/concrete_stool/image_order/02.jpg",
+    "https://maddie-portfolio.s3.amazonaws.com/misc/concrete_stool/image_order/03.jpg",
+    "https://maddie-portfolio.s3.amazonaws.com/misc/concrete_stool/image_order/04.jpg",
+    "https://maddie-portfolio.s3.amazonaws.com/misc/concrete_stool/image_order/05.jpg",
+    "https://maddie-portfolio.s3.amazonaws.com/misc/concrete_stool/image_order/06.jpg",
+    "https://maddie-portfolio.s3.amazonaws.com/misc/concrete_stool/image_order/07.jpg",
+    "https://maddie-portfolio.s3.amazonaws.com/misc/concrete_stool/image_order/08.jpg",
+  ],
+  thumbnail: "https://maddie-portfolio.s3.amazonaws.com/misc/concrete_stool/title_image/title.jpg"
+}
