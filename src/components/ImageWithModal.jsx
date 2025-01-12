@@ -30,9 +30,9 @@ const ImageWithModal = ({ projectData, isOpen, onOpen, onClose, loading }) => {
           </div>
           {projectData.images.map((image, index) => (
             <React.Fragment key={index}>
-              {image.endsWith('.MOV') ? (
+              {image.endsWith('.mp4') ? (
                 <video controls>
-                  <source src={image} type="video/quicktime" className="modal-image" />
+                  <source src={image} type="video/mp4" className="modal-image" />
                   Your browser does not support the video tag.
                 </video>
               ) : (

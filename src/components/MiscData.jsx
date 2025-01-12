@@ -116,7 +116,7 @@ export const PASTURE_GRASSES = {
       "https://maddie-portfolio.s3.amazonaws.com/misc/pasture_grasses/image_order/7.jpg",
       "https://maddie-portfolio.s3.amazonaws.com/misc/pasture_grasses/image_order/8.jpg",
       "https://maddie-portfolio.s3.amazonaws.com/misc/pasture_grasses/image_order/9.jpg",      
-      "https://maddie-portfolio.s3.amazonaws.com/misc/pasture_grasses/image_order/booklet+video+if+possible.MOV",
+      "https://maddie-portfolio.s3.amazonaws.com/misc/pasture_grasses/image_order/booklet_video.mp4",
     ],
     thumbnail: "https://maddie-portfolio.s3.amazonaws.com/misc/pasture_grasses/title_image/title.jpg"
 }
