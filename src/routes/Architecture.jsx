@@ -89,6 +89,7 @@ function Architecture() {
               isOpen={modalOpen && projectData === HOUSE_OF_INVERSIONS} 
               onOpen={() => openModal('HOUSE_OF_INVERSIONS')}
               onClose={() => closeModal()} 
+              loading="lazy"
             />
         </div>
         <div className="col-md-4 ml-auto">
@@ -98,6 +99,7 @@ function Architecture() {
               isOpen={modalOpen && projectData === PUBLIC_PALACE} 
               onOpen={() => openModal('PUBLIC_PALACE')}
               onClose={() => closeModal()} 
+              loading="lazy"
             />
         </div>
         <div className="col-md-4 ml-auto">
@@ -107,6 +109,7 @@ function Architecture() {
               isOpen={modalOpen && projectData === SIDEWALK_STUFF} 
               onOpen={() => openModal('SIDEWALK_STUFF')}
               onClose={() => closeModal()} 
+              loading="lazy"
             />
         </div>
       </div>
@@ -119,6 +122,7 @@ function Architecture() {
               isOpen={modalOpen && projectData === URBAN_CHAPEL} 
               onOpen={() => openModal('URBAN_CHAPEL')}
               onClose={() => closeModal()} 
+              loading="lazy"
             />
         </div>
         <div className="col-md-4 ml-auto">
@@ -128,6 +132,7 @@ function Architecture() {
               isOpen={modalOpen && projectData === POWER_ENERGY} 
               onOpen={() => openModal('POWER_ENERGY')}
               onClose={() => closeModal()} 
+              loading="lazy"
             />
         </div>
         <div className="col-md-4 ml-auto">
@@ -137,6 +142,7 @@ function Architecture() {
               isOpen={modalOpen && projectData === CHAIN_OF_ROCKS} 
               onOpen={() => openModal('CHAIN_OF_ROCKS')}
               onClose={() => closeModal()} 
+              loading="lazy"
             />
         </div>
       </div>
@@ -150,6 +156,7 @@ function Architecture() {
               isOpen={modalOpen && projectData === LIVING_INTERSECTION} 
               onOpen={() => openModal('LIVING_INTERSECTION')}
               onClose={() => closeModal()} 
+              loading="lazy"
             />
         </div>
         <div className="col-md-4 ml-auto">
@@ -159,6 +166,7 @@ function Architecture() {
               isOpen={modalOpen && projectData === CONTAINER_AND_CONTAINED} 
               onOpen={() => openModal('CONTAINER_AND_CONTAINED')}
               onClose={() => closeModal()} 
+              loading="lazy"
             />
         </div>
         <div className="col-md-4 ml-auto">
@@ -168,6 +176,7 @@ function Architecture() {
               isOpen={modalOpen && projectData === SENSING_TEXTURE} 
               onOpen={() => openModal('SENSING_TEXTURE')}
               onClose={() => closeModal()} 
+              loading="lazy"
             />
         </div>
       </div>
@@ -180,6 +189,7 @@ function Architecture() {
               isOpen={modalOpen && projectData === JUMP_CUT} 
               onOpen={() => openModal('JUMP_CUT')}
               onClose={() => closeModal()} 
+              loading="lazy"
             />
         </div>
         <div className="col-md-4 ml-auto">
@@ -189,6 +199,7 @@ function Architecture() {
               isOpen={modalOpen && projectData === CRATER} 
               onOpen={() => openModal('CRATER')}
               onClose={() => closeModal()} 
+              loading="lazy"
             />
         </div>
         <div className="col-md-4 ml-auto">
@@ -198,6 +209,7 @@ function Architecture() {
               isOpen={modalOpen && projectData === REST_STOP_REVISITED} 
               onOpen={() => openModal('REST_STOP_REVISITED')}
               onClose={() => closeModal()} 
+              loading="lazy"
             />
         </div>
       </div>
@@ -210,6 +222,7 @@ function Architecture() {
               isOpen={modalOpen && projectData === GIFT_ECONOMY} 
               onOpen={() => openModal('GIFT_ECONOMY')}
               onClose={() => closeModal()} 
+              loading="lazy"
             />
         </div>
         <div className="col-md-4 ml-auto">
@@ -219,6 +232,7 @@ function Architecture() {
               isOpen={modalOpen && projectData === SOULARD_MARKETPLACE} 
               onOpen={() => openModal('SOULARD_MARKETPLACE')}
               onClose={() => closeModal()} 
+              loading="lazy"
             />
         </div>
         <div className="col-md-4 ml-auto">
@@ -228,6 +242,7 @@ function Architecture() {
               isOpen={modalOpen && projectData === PATTERNS_IN_NATURE} 
               onOpen={() => openModal('PATTERNS_IN_NATURE')}
               onClose={() => closeModal()} 
+              loading="lazy"
             />
         </div>
       </div>
@@ -240,6 +255,7 @@ function Architecture() {
               isOpen={modalOpen && projectData === MDEAS} 
               onOpen={() => openModal('MDEAS')}
               onClose={() => closeModal()} 
+              loading="lazy"
             />
         </div>
         <div className="col-md-4 ml-auto">
@@ -249,6 +265,7 @@ function Architecture() {
               isOpen={modalOpen && projectData === HEWITT} 
               onOpen={() => openModal('HEWITT')}
               onClose={() => closeModal()} 
+              loading="lazy"
             />
         </div>
         <div className="col-md-4 ml-auto">
@@ -258,6 +275,7 @@ function Architecture() {
               isOpen={modalOpen && projectData === RESHAPING_REMNANTS} 
               onOpen={() => openModal('RESHAPING_REMNANTS')}
               onClose={() => closeModal()} 
+              loading="lazy"
             />
         </div>
       </div>

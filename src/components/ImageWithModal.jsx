@@ -4,7 +4,7 @@ import '../styles/style.css'
 import { Modal } from 'react-bootstrap';
 import Parser from "html-react-parser";
 
-const ImageWithModal = ({ projectData, isOpen, onOpen, onClose }) => {
+const ImageWithModal = ({ projectData, isOpen, onOpen, onClose, loading }) => {
     const [fullscreen, setFullscreen] = React.useState(true);
   
     React.useEffect(() => {
@@ -13,7 +13,7 @@ const ImageWithModal = ({ projectData, isOpen, onOpen, onClose }) => {
 
   return (
     <>
-      <img id="modal1"  onClick={onOpen} src={projectData.thumbnail} alt="" className="mx-auto d-block image-grid"/>
+      <img id="modal1" onClick={onOpen} src={projectData.thumbnail} alt="" className="mx-auto d-block image-grid" loading={loading} />
       <Modal show={isOpen} fullscreen={fullscreen} onHide={onClose}>        
         <Modal.Body className="modal-body">
           <div>
@@ -22,7 +22,7 @@ const ImageWithModal = ({ projectData, isOpen, onOpen, onClose }) => {
             <span className="project-header"><strong>{projectData.header2}</strong></span>
             <br />
             {projectData.text.map((text) => (
-              <React.Fragment>
+              <React.Fragment key={text}>
                 <span className="project-header">{Parser(text)}</span>
                 <br />
               </React.Fragment>
@@ -32,15 +32,15 @@ const ImageWithModal = ({ projectData, isOpen, onOpen, onClose }) => {
             <React.Fragment key={index}>
               {image.endsWith('.MOV') ? (
                 <video controls>
-                  <source src={image} type="video/quicktime" className="modal-image"/>
+                  <source src={image} type="video/quicktime" className="modal-image" />
                   Your browser does not support the video tag.
                 </video>
               ) : (
                 <img
-                  key={index}
                   src={image}
                   alt={`Image ${index + 1}`}
                   className="modal-image"
+                  loading={loading}
                 />
               )}
             </React.Fragment>
