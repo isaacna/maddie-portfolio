@@ -23,7 +23,10 @@ import {
   SACRAMENTO,
   PHOTOGRAPHY,
   NATIVE_PLANT_PRINTS,
-  CONCRETE_STOOL
+  CONCRETE_STOOL,
+  TRAVEL_PHOTOGRAPHY,
+  GRADUATION_PHOTOGRAPHY,
+  WEDDING_02
 } from '../components/MiscData';
 
 const projectDataMap = {
@@ -44,7 +47,10 @@ const projectDataMap = {
   'SACRAMENTO': SACRAMENTO,
   'PHOTOGRAPHY': PHOTOGRAPHY,
   'NATIVE_PLANT_PRINTS': NATIVE_PLANT_PRINTS,
-  'CONCRETE_STOOL': CONCRETE_STOOL
+  'CONCRETE_STOOL': CONCRETE_STOOL,
+  'TRAVEL_PHOTOGRAPHY': TRAVEL_PHOTOGRAPHY,
+  'GRADUATION_PHOTOGRAPHY': GRADUATION_PHOTOGRAPHY,
+  'WEDDING_02': WEDDING_02
 };
 
 function Misc() {
@@ -271,6 +277,39 @@ function Misc() {
               altText="Image 1" 
               isOpen={modalOpen && projectData === CONCRETE_STOOL} 
               onOpen={() => openModal('CONCRETE_STOOL')}
+              onClose={() => closeModal()} 
+              loading="lazy"
+            />
+        </div>
+      </div>
+
+      <div className="row row-container">
+        <div className="col-md-4 ml-auto">
+          <ImageWithModal 
+              projectData={TRAVEL_PHOTOGRAPHY} 
+              altText="Image 1" 
+              isOpen={modalOpen && projectData === TRAVEL_PHOTOGRAPHY} 
+              onOpen={() => openModal('TRAVEL_PHOTOGRAPHY')}
+              onClose={() => closeModal()} 
+              loading="lazy"
+            />
+        </div>
+        <div className="col-md-4 ml-auto">
+          <ImageWithModal 
+              projectData={GRADUATION_PHOTOGRAPHY} 
+              altText="Image 1" 
+              isOpen={modalOpen && projectData === GRADUATION_PHOTOGRAPHY} 
+              onOpen={() => openModal('GRADUATION_PHOTOGRAPHY')}
+              onClose={() => closeModal()} 
+              loading="lazy"
+            />
+        </div>
+        <div className="col-md-4 ml-auto">
+          <ImageWithModal 
+              projectData={WEDDING_02} 
+              altText="Image 1" 
+              isOpen={modalOpen && projectData === WEDDING_02} 
+              onOpen={() => openModal('WEDDING_02')}
               onClose={() => closeModal()} 
               loading="lazy"
             />

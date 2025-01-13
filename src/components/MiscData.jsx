@@ -386,22 +386,82 @@ export const CONCRETE_STOOL = {
 }
 
 export const TRAVEL_PHOTOGRAPHY = {
-  name: "",
-  header1: "",
-  header2: "",
+  name: "Travel photography",
+  header1: "Architecture and Landscapes / Independent and Hired",
+  header2: "Portugal / 2024",
+  text: [],
+  images: [
+    "https://maddie-portfolio.s3.amazonaws.com/misc/travel_photography/image_order/1.jpg",
+    "https://maddie-portfolio.s3.amazonaws.com/misc/travel_photography/image_order/2.jpg",
+    "https://maddie-portfolio.s3.amazonaws.com/misc/travel_photography/image_order/3.jpg",
+    "https://maddie-portfolio.s3.amazonaws.com/misc/travel_photography/image_order/4.jpg",
+    "https://maddie-portfolio.s3.amazonaws.com/misc/travel_photography/image_order/5.jpg",
+    "https://maddie-portfolio.s3.amazonaws.com/misc/travel_photography/image_order/6.jpg",
+    "https://maddie-portfolio.s3.amazonaws.com/misc/travel_photography/image_order/7.jpg",
+    "https://maddie-portfolio.s3.amazonaws.com/misc/travel_photography/image_order/8.jpg",
+    "https://maddie-portfolio.s3.amazonaws.com/misc/travel_photography/image_order/9.jpg",
+    "https://maddie-portfolio.s3.amazonaws.com/misc/travel_photography/image_order/10.jpg",
+    "https://maddie-portfolio.s3.amazonaws.com/misc/travel_photography/image_order/11.jpg",
+    "https://maddie-portfolio.s3.amazonaws.com/misc/travel_photography/image_order/12.jpg",
+    "https://maddie-portfolio.s3.amazonaws.com/misc/travel_photography/image_order/13.jpg",
+    "https://maddie-portfolio.s3.amazonaws.com/misc/travel_photography/image_order/14.jpg",
+    "https://maddie-portfolio.s3.amazonaws.com/misc/travel_photography/image_order/15.jpg",
+    "https://maddie-portfolio.s3.amazonaws.com/misc/travel_photography/image_order/16.jpg",
+    "https://maddie-portfolio.s3.amazonaws.com/misc/travel_photography/image_order/17.jpg",
+    "https://maddie-portfolio.s3.amazonaws.com/misc/travel_photography/image_order/18.jpg",
+    "https://maddie-portfolio.s3.amazonaws.com/misc/travel_photography/image_order/19.jpg",
+    "https://maddie-portfolio.s3.amazonaws.com/misc/travel_photography/image_order/20.jpg",
+  ],
+  thumbnail: "https://maddie-portfolio.s3.amazonaws.com/misc/travel_photography/title_image/title.jpg"
+}
+
+export const GRADUATION_PHOTOGRAPHY = {
+  name: "Graduation photography",
+  header1: "Graduation Photography / Independent and Hired",
+  header2: "Loyola / 2024",
+  text: [],
+  images: [
+    "https://maddie-portfolio.s3.amazonaws.com/misc/graduation_photography/image_order/1.jpg",
+    "https://maddie-portfolio.s3.amazonaws.com/misc/graduation_photography/image_order/2.jpg",
+    "https://maddie-portfolio.s3.amazonaws.com/misc/graduation_photography/image_order/3.jpg",
+    "https://maddie-portfolio.s3.amazonaws.com/misc/graduation_photography/image_order/4.jpg",
+    "https://maddie-portfolio.s3.amazonaws.com/misc/graduation_photography/image_order/5.jpg",
+    "https://maddie-portfolio.s3.amazonaws.com/misc/graduation_photography/image_order/6.jpg",
+    "https://maddie-portfolio.s3.amazonaws.com/misc/graduation_photography/image_order/7.jpg",
+    "https://maddie-portfolio.s3.amazonaws.com/misc/graduation_photography/image_order/8.jpg",
+    "https://maddie-portfolio.s3.amazonaws.com/misc/graduation_photography/image_order/9.jpg",
+  ],
+  thumbnail: "https://maddie-portfolio.s3.amazonaws.com/misc/graduation_photography/title_image/title.jpg"
+}
+
+export const WEDDING_02 = {
+  name: "Wedding 02",
+  header1: "Wedding Signage / Programs, Invites, Seating Labels, T-Shirts",
+  header2: "Chicago, IL / 2024",
   text: [
-    "",
-    ""
+    "I worked with the bride to compose personalized, hand-painted signage fitting to her floral theme and personality-driven memorabilia."
   ],
   images: [
-    "https://maddie-portfolio.s3.amazonaws.com/misc/concrete_stool/image_order/0.jpg",
-    "https://maddie-portfolio.s3.amazonaws.com/misc/concrete_stool/image_order/02.jpg",
-    "https://maddie-portfolio.s3.amazonaws.com/misc/concrete_stool/image_order/03.jpg",
-    "https://maddie-portfolio.s3.amazonaws.com/misc/concrete_stool/image_order/04.jpg",
-    "https://maddie-portfolio.s3.amazonaws.com/misc/concrete_stool/image_order/05.jpg",
-    "https://maddie-portfolio.s3.amazonaws.com/misc/concrete_stool/image_order/06.jpg",
-    "https://maddie-portfolio.s3.amazonaws.com/misc/concrete_stool/image_order/07.jpg",
-    "https://maddie-portfolio.s3.amazonaws.com/misc/concrete_stool/image_order/08.jpg",
+    "https://maddie-portfolio.s3.amazonaws.com/misc/wedding_02/image_order/1.jpg",
+    "https://maddie-portfolio.s3.amazonaws.com/misc/wedding_02/image_order/1.5.jpg",
+    "https://maddie-portfolio.s3.amazonaws.com/misc/wedding_02/image_order/2.jpg",
+    "https://maddie-portfolio.s3.amazonaws.com/misc/wedding_02/image_order/3.jpg",
+    "https://maddie-portfolio.s3.amazonaws.com/misc/wedding_02/image_order/4.jpg",
+    "https://maddie-portfolio.s3.amazonaws.com/misc/wedding_02/image_order/5.jpg",
+    "https://maddie-portfolio.s3.amazonaws.com/misc/wedding_02/image_order/6.jpg",
+    "https://maddie-portfolio.s3.amazonaws.com/misc/wedding_02/image_order/7.jpg",
+    "https://maddie-portfolio.s3.amazonaws.com/misc/wedding_02/image_order/8.jpg",
+    "https://maddie-portfolio.s3.amazonaws.com/misc/wedding_02/image_order/9.jpg",
+    "https://maddie-portfolio.s3.amazonaws.com/misc/wedding_02/image_order/10.jpg",
+    "https://maddie-portfolio.s3.amazonaws.com/misc/wedding_02/image_order/11.jpg",
+    "https://maddie-portfolio.s3.amazonaws.com/misc/wedding_02/image_order/12.jpg",
+    "https://maddie-portfolio.s3.amazonaws.com/misc/wedding_02/image_order/13.jpg",
+    "https://maddie-portfolio.s3.amazonaws.com/misc/wedding_02/image_order/14.jpg",
+    "https://maddie-portfolio.s3.amazonaws.com/misc/wedding_02/image_order/15.jpg",
+    "https://maddie-portfolio.s3.amazonaws.com/misc/wedding_02/image_order/16.jpg",
+    "https://maddie-portfolio.s3.amazonaws.com/misc/wedding_02/image_order/17.jpg",
+    "https://maddie-portfolio.s3.amazonaws.com/misc/wedding_02/image_order/18.jpg",
+    "https://maddie-portfolio.s3.amazonaws.com/misc/wedding_02/image_order/20.jpg",
   ],
-  thumbnail: "https://maddie-portfolio.s3.amazonaws.com/misc/concrete_stool/title_image/title.jpg"
+  thumbnail: "https://maddie-portfolio.s3.amazonaws.com/misc/wedding_02/title_image/title.jpg"
 }
