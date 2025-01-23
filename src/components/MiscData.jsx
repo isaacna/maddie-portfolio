@@ -465,3 +465,126 @@ export const WEDDING_02 = {
   ],
   thumbnail: "https://maddie-portfolio.s3.amazonaws.com/misc/wedding_02/title_image/title.jpg"
 }
+
+export const CONCRETE_BALLET = {
+  name: "Concrete Ballet",
+  header1: "How to Move a Megalith / Critic Brandon Clifford",
+  header2: "MIT Architecture / 2025",
+  text: [
+    "Testing how one friend can pull another along according to a unique geometric alignment. This ultimately performed a ballet of concrete—the assembly catch and combined weight rolled the two casts. The two molds were designed for 2D rotation based the location of the Center of Mass and density of rockite. Alone, they stand in place, but their combined weight allows the two to navigate together. The performance is precise assembly that requires the intervention of an induced human force."
+  ],
+  images: [
+    "https://maddie-portfolio.s3.amazonaws.com/architecture/concrete_ballet/image_order/01.jpg",
+
+  ],
+  thumbnail: "https://maddie-portfolio.s3.amazonaws.com/architecture/concrete_ballet/title_image/TitleSwirl.jpg"
+}
+
+export const GEOLOGIC_JOINERY = {
+  name: "Geologic Joinery",
+  header1: "How to Move a Megalith / Critic Brandon Clifford",
+  header2: "MIT Architecture / 2025",
+  text: [
+    "Shale, limestone, coal, and sandstone exist on a geological timescale, reflecting millions of years of formation. Our current architectural models exists within much shallower timelines, catering to the quick and expedient. Restoring ecology demands design attuned to this deeper timescale, engaging materials that resist standardization to create enduring connections. How can we operate within an existing inventory of stone to design the joining of these elements?"
+  ],
+  images: [
+    "https://maddie-portfolio.s3.amazonaws.com/architecture/geologic_joinery/image_order/01.jpg",
+
+  ],
+  thumbnail: "https://maddie-portfolio.s3.amazonaws.com/architecture/geologic_joinery/title_image/Geologic_Joinery_Title.jpg"
+}
+
+export const GEOLOGIC_JOINERY_II = {
+  name: "Geologic Joinery II",
+  header1: "How to Move a Megalith / Critic Brandon Clifford",
+  header2: "MIT Architecture / 2025",
+  text: [
+    "Embracing the uncontrolled geometries and irregularities of overburden Strip Mining rock as viable, beautiful building materials."
+  ],
+  images: [
+    "https://maddie-portfolio.s3.amazonaws.com/architecture/geologic_joinery_ii/image_order/01.jpg",
+  ],
+  thumbnail: "https://maddie-portfolio.s3.amazonaws.com/architecture/geologic_joinery_ii/title_image/GeologicIITItle.jpg"
+}
+
+export const PARAMETRIC_QUARRY = {
+  name: "Parametric Quarry",
+  header1: "Critic Jose Luis García del Castillo y López",
+  header2: "Harvard GSD / 2025",
+  text: [
+    "Transformation of a parametric quarry with Tanil Raif and Jing Liao. Stone and land shift with depth and time, echoing themes of transience and impermanence. As rocks break down into smaller particles, the quarry's surface becomes a metaphor for the fleeting nature of materiality. Using a grid of parametric x and y points, we mapped geometry based on mathematical functions, with the Z-value determining the stones' size and relationships."
+  ],
+  images: [
+    "https://maddie-portfolio.s3.amazonaws.com/architecture/parametric_quarry/image_order/01.jpg",
+
+  ],
+  thumbnail: "https://maddie-portfolio.s3.amazonaws.com/architecture/parametric_quarry/title_image/image1_2250x1200.jpg"
+}
+
+export const CUSTOM_3D_PRINT_TOOLPATH = {
+  name: "Custom 3D Print Toolpath",
+  header1: "Critic Jose Luis García del Castillo y López",
+  header2: "Harvard GSD / 2025",
+  text: [
+    "3D printing using custom C# toolpaths with Tanil Raif and Jing Liao. This project uses a continuous spiral approach to 3D printing, departing from traditional horizontal layering to produce a lightweight, open structure adaptable to non-linear surfaces. By manipulating parametric variables like the amplitude and frequency of undulations in the XY and Z planes, we control the form's adaptability and visual complexity, allowing for intentional coil misalignments that enhance openness and shadow effects. These adjustments enable the structure to enclose irregular stones without requiring precise stacking, making it suitable for irregular, organic settings."
+  ],
+  images: [
+    "https://maddie-portfolio.s3.amazonaws.com/architecture/custom_3d_print_toolpath/image_order/01.mp4",
+
+  ],
+  thumbnail: "https://maddie-portfolio.s3.amazonaws.com/architecture/custom_3d_print_toolpath/title_image/LaceTitle.jpg"
+}
+
+export const COLLECTING_CLEANING_CUTTING = {
+  name: "Collecting, Cleaning, Cutting, Breaking, Sorting",
+  header1: "Breathitt County, KY / Thesis Research",
+  header2: "Harvard GSD / 2025",
+  text: [
+    "Discarded overburden post strip-mining has particular breakage tendencies. Life that flourishes is these abandoned landscapes in Kentucky is attuned to the affordances offered by human design and the anomalies of the rock left behind. How might the design process engage in something that does not have a predetermined standardization. How can we operate with the existing inventory of stone to design the joining of these elements?"
+  ],
+  images: [
+    "https://maddie-portfolio.s3.amazonaws.com/architecture/collecting_cleaning_cutting/image_order/01.jpg",
+
+  ],
+  thumbnail: "https://maddie-portfolio.s3.amazonaws.com/architecture/collecting_cleaning_cutting/title_image/Grid.jpg"
+}
+
+export const RURAL_GSD = {
+  name: "Rural GSD",
+  header1: "Design Summit / Kirkland Gallery",
+  header2: "Harvard GSD / 2024",
+  text: [
+    "Rural GSD hosted a student-produced exhibition at the Kirkland Gallery in October 2024. Practitioners ran workshops with topics that ranged from economics of preserving productive farmland to cross cultural design/build strategies. There was cooking, sharing, and connecting across representations and lived experiences. Thanks to the whole Rural GSD team and the Loeb Fellows for sponsoring."
+  ],
+  images: [
+    "https://maddie-portfolio.s3.amazonaws.com/architecture/rural_gsd/image_order/01.jpg",
+
+  ],
+  thumbnail: "https://maddie-portfolio.s3.amazonaws.com/architecture/rural_gsd/title_image/KirkGalleryTitle.jpg"
+}
+
+export const KENTUCKY_PHOTOGRAPHY = {
+  name: "Kentucky Photography",
+  header1: "Home. Winter storms and brush burning.",
+  header2: "Lexington, KY / 2025",
+  text: [],
+  images: [
+    "https://maddie-portfolio.s3.amazonaws.com/architecture/kentucky_photography/image_order/01.jpg",
+
+  ],
+  thumbnail: "https://maddie-portfolio.s3.amazonaws.com/architecture/kentucky_photography/title_image/ire.jpg"
+}
+
+export const VOLCANIC_BENCH = {
+  name: "Volcanic Bench",
+  header1: "Hokkaido, Japan / Kengo Kuma Furniture Competition",
+  header2: "Partner Tanil Raif / 2025",
+  text: [
+    "Design for a furniture competition in Hokkaido, Japan. The bench combines rest for hikers + refuge for the native Pikas, who nest in the crevices of the alpine slopes. A robotic printed seat is made from the site's volcanic ash and clay, adapting to the site's 3D scanned rocks' irregular geometry. It invites pause, standing for simplicity, balance, and the gentle curve of the Daisetsuzan Mountains."
+  ],
+  images: [
+    "https://maddie-portfolio.s3.amazonaws.com/architecture/volcanic_bench/image_order/Image_01.jpg",
+
+  ],
+  thumbnail: "https://maddie-portfolio.s3.amazonaws.com/architecture/volcanic_bench/title_image/VolcanicBenchTitleImage.jpg"
+}

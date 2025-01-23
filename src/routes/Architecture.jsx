@@ -27,6 +27,9 @@ import {
     SOULARD_MARKETPLACE,
     THESIS_PREP_BOOK,
     MOVING_STONE,
+    IRREGULAR_STONE_JIG,
+    CUSTOM_SANDSTONE_MORTAR,
+    PRINTING_SPACES_IN_STONE,
     URBAN_CHAPEL
 } from '../components/ProjectData';
 
@@ -53,6 +56,9 @@ const projectDataMap = {
   'SEAGRAM': SEAGRAM,
   'THESIS_PREP_BOOK': THESIS_PREP_BOOK,
   'MOVING_STONE': MOVING_STONE,
+  'IRREGULAR_STONE_JIG': IRREGULAR_STONE_JIG,
+  'CUSTOM_SANDSTONE_MORTAR': CUSTOM_SANDSTONE_MORTAR,
+  'PRINTING_SPACES_IN_STONE': PRINTING_SPACES_IN_STONE,
 };
 
 function Architecture() {
@@ -313,6 +319,39 @@ function Architecture() {
               altText="Image 1" 
               isOpen={modalOpen && projectData === MOVING_STONE} 
               onOpen={() => openModal('MOVING_STONE')}
+              onClose={() => closeModal()} 
+              loading="lazy"
+            />
+        </div>
+      </div>
+
+      <div className="row row-container">
+        <div className="col-md-4 ml-auto">
+          <ImageWithModal 
+              projectData={IRREGULAR_STONE_JIG} 
+              altText="Image 1" 
+              isOpen={modalOpen && projectData === IRREGULAR_STONE_JIG} 
+              onOpen={() => openModal('IRREGULAR_STONE_JIG')}
+              onClose={() => closeModal()} 
+              loading="lazy"
+            />
+        </div>
+        <div className="col-md-4 ml-auto">
+          <ImageWithModal 
+              projectData={CUSTOM_SANDSTONE_MORTAR} 
+              altText="Image 1" 
+              isOpen={modalOpen && projectData === CUSTOM_SANDSTONE_MORTAR} 
+              onOpen={() => openModal('CUSTOM_SANDSTONE_MORTAR')}
+              onClose={() => closeModal()} 
+              loading="lazy"
+            />
+        </div>
+        <div className="col-md-4 ml-auto">
+          <ImageWithModal 
+              projectData={PRINTING_SPACES_IN_STONE} 
+              altText="Image 1" 
+              isOpen={modalOpen && projectData === PRINTING_SPACES_IN_STONE} 
+              onOpen={() => openModal('PRINTING_SPACES_IN_STONE')}
               onClose={() => closeModal()} 
               loading="lazy"
             />
