@@ -96,17 +96,40 @@ function Architecture() {
       <div className="row row-container">
         <div className="col-md-4 ml-auto">
           <ImageWithModal 
-              projectData={HOUSE_OF_INVERSIONS} 
+              projectData={MOVING_STONE}
               altText="Image 1" 
-              isOpen={modalOpen && projectData === HOUSE_OF_INVERSIONS} 
-              onOpen={() => openModal('HOUSE_OF_INVERSIONS')}
+              isOpen={modalOpen && projectData === MOVING_STONE} 
+              onOpen={() => openModal('MOVING_STONE')}
               onClose={() => closeModal()} 
               loading="lazy"
             />
         </div>
         <div className="col-md-4 ml-auto">
           <ImageWithModal 
-              projectData={PUBLIC_PALACE} 
+              projectData={CUSTOM_SANDSTONE_MORTAR}
+              altText="Image 1" 
+              isOpen={modalOpen && projectData === CUSTOM_SANDSTONE_MORTAR} 
+              onOpen={() => openModal('CUSTOM_SANDSTONE_MORTAR')}
+              onClose={() => closeModal()} 
+              loading="lazy"
+            />
+        </div>
+        <div className="col-md-4 ml-auto">
+          <ImageWithModal 
+              projectData={GIFT_ECONOMY}
+              altText="Image 1" 
+              isOpen={modalOpen && projectData === GIFT_ECONOMY} 
+              onOpen={() => openModal('GIFT_ECONOMY')}
+              onClose={() => closeModal()} 
+              loading="lazy"
+            />
+        </div>
+      </div>
+
+      <div className="row row-container">
+        <div className="col-md-4 ml-auto">
+          <ImageWithModal 
+              projectData={PUBLIC_PALACE}
               altText="Image 1" 
               isOpen={modalOpen && projectData === PUBLIC_PALACE} 
               onOpen={() => openModal('PUBLIC_PALACE')}
@@ -116,7 +139,50 @@ function Architecture() {
         </div>
         <div className="col-md-4 ml-auto">
           <ImageWithModal 
-              projectData={SIDEWALK_STUFF} 
+              projectData={PRINTING_SPACES_IN_STONE}
+              altText="Image 1" 
+              isOpen={modalOpen && projectData === PRINTING_SPACES_IN_STONE} 
+              onOpen={() => openModal('PRINTING_SPACES_IN_STONE')}
+              onClose={() => closeModal()} 
+              loading="lazy"
+            />
+        </div>
+        <div className="col-md-4 ml-auto">
+          <ImageWithModal 
+              projectData={SEAGRAM}
+              altText="Image 1" 
+              isOpen={modalOpen && projectData === SEAGRAM} 
+              onOpen={() => openModal('SEAGRAM')}
+              onClose={() => closeModal()} 
+              loading="lazy"
+            />
+        </div>
+      </div>
+
+      <div className="row row-container">
+        <div className="col-md-4 ml-auto">
+          <ImageWithModal 
+              projectData={HOUSE_OF_INVERSIONS}
+              altText="Image 1" 
+              isOpen={modalOpen && projectData === HOUSE_OF_INVERSIONS} 
+              onOpen={() => openModal('HOUSE_OF_INVERSIONS')}
+              onClose={() => closeModal()} 
+              loading="lazy"
+            />
+        </div>
+        <div className="col-md-4 ml-auto">
+          <ImageWithModal 
+              projectData={MDEAS}
+              altText="Image 1" 
+              isOpen={modalOpen && projectData === MDEAS} 
+              onOpen={() => openModal('MDEAS')}
+              onClose={() => closeModal()} 
+              loading="lazy"
+            />
+        </div>
+        <div className="col-md-4 ml-auto">
+          <ImageWithModal 
+              projectData={SIDEWALK_STUFF}
               altText="Image 1" 
               isOpen={modalOpen && projectData === SIDEWALK_STUFF} 
               onOpen={() => openModal('SIDEWALK_STUFF')}
@@ -129,7 +195,7 @@ function Architecture() {
       <div className="row row-container">
         <div className="col-md-4 ml-auto">
           <ImageWithModal 
-              projectData={URBAN_CHAPEL} 
+              projectData={URBAN_CHAPEL}
               altText="Image 1" 
               isOpen={modalOpen && projectData === URBAN_CHAPEL} 
               onOpen={() => openModal('URBAN_CHAPEL')}
@@ -139,7 +205,7 @@ function Architecture() {
         </div>
         <div className="col-md-4 ml-auto">
           <ImageWithModal 
-              projectData={POWER_ENERGY} 
+              projectData={POWER_ENERGY}
               altText="Image 1" 
               isOpen={modalOpen && projectData === POWER_ENERGY} 
               onOpen={() => openModal('POWER_ENERGY')}
@@ -149,7 +215,7 @@ function Architecture() {
         </div>
         <div className="col-md-4 ml-auto">
           <ImageWithModal 
-              projectData={CHAIN_OF_ROCKS} 
+              projectData={CHAIN_OF_ROCKS}
               altText="Image 1" 
               isOpen={modalOpen && projectData === CHAIN_OF_ROCKS} 
               onOpen={() => openModal('CHAIN_OF_ROCKS')}
@@ -158,88 +224,21 @@ function Architecture() {
             />
         </div>
       </div>
-      <div id="test"></div>
 
       <div className="row row-container">
         <div className="col-md-4 ml-auto">
           <ImageWithModal 
-              projectData={LIVING_INTERSECTION} 
+              projectData={HEWITT}
               altText="Image 1" 
-              isOpen={modalOpen && projectData === LIVING_INTERSECTION} 
-              onOpen={() => openModal('LIVING_INTERSECTION')}
+              isOpen={modalOpen && projectData === HEWITT} 
+              onOpen={() => openModal('HEWITT')}
               onClose={() => closeModal()} 
               loading="lazy"
             />
         </div>
         <div className="col-md-4 ml-auto">
           <ImageWithModal 
-              projectData={CONTAINER_AND_CONTAINED} 
-              altText="Image 1" 
-              isOpen={modalOpen && projectData === CONTAINER_AND_CONTAINED} 
-              onOpen={() => openModal('CONTAINER_AND_CONTAINED')}
-              onClose={() => closeModal()} 
-              loading="lazy"
-            />
-        </div>
-        <div className="col-md-4 ml-auto">
-          <ImageWithModal 
-              projectData={SENSING_TEXTURE} 
-              altText="Image 1" 
-              isOpen={modalOpen && projectData === SENSING_TEXTURE} 
-              onOpen={() => openModal('SENSING_TEXTURE')}
-              onClose={() => closeModal()} 
-              loading="lazy"
-            />
-        </div>
-      </div>
-
-      <div className="row row-container">
-        <div className="col-md-4 ml-auto">
-          <ImageWithModal 
-              projectData={JUMP_CUT} 
-              altText="Image 1" 
-              isOpen={modalOpen && projectData === JUMP_CUT} 
-              onOpen={() => openModal('JUMP_CUT')}
-              onClose={() => closeModal()} 
-              loading="lazy"
-            />
-        </div>
-        <div className="col-md-4 ml-auto">
-          <ImageWithModal 
-              projectData={CRATER} 
-              altText="Image 1" 
-              isOpen={modalOpen && projectData === CRATER} 
-              onOpen={() => openModal('CRATER')}
-              onClose={() => closeModal()} 
-              loading="lazy"
-            />
-        </div>
-        <div className="col-md-4 ml-auto">
-          <ImageWithModal 
-              projectData={REST_STOP_REVISITED} 
-              altText="Image 1" 
-              isOpen={modalOpen && projectData === REST_STOP_REVISITED} 
-              onOpen={() => openModal('REST_STOP_REVISITED')}
-              onClose={() => closeModal()} 
-              loading="lazy"
-            />
-        </div>
-      </div>
-
-      <div className="row row-container">
-        <div className="col-md-4 ml-auto">
-          <ImageWithModal 
-              projectData={GIFT_ECONOMY} 
-              altText="Image 1" 
-              isOpen={modalOpen && projectData === GIFT_ECONOMY} 
-              onOpen={() => openModal('GIFT_ECONOMY')}
-              onClose={() => closeModal()} 
-              loading="lazy"
-            />
-        </div>
-        <div className="col-md-4 ml-auto">
-          <ImageWithModal 
-              projectData={SOULARD_MARKETPLACE} 
+              projectData={SOULARD_MARKETPLACE}
               altText="Image 1" 
               isOpen={modalOpen && projectData === SOULARD_MARKETPLACE} 
               onOpen={() => openModal('SOULARD_MARKETPLACE')}
@@ -249,7 +248,40 @@ function Architecture() {
         </div>
         <div className="col-md-4 ml-auto">
           <ImageWithModal 
-              projectData={PATTERNS_IN_NATURE} 
+              projectData={THESIS_PREP_BOOK}
+              altText="Image 1" 
+              isOpen={modalOpen && projectData === THESIS_PREP_BOOK} 
+              onOpen={() => openModal('THESIS_PREP_BOOK')}
+              onClose={() => closeModal()} 
+              loading="lazy"
+            />
+        </div>
+      </div>
+
+      <div className="row row-container">
+        <div className="col-md-4 ml-auto">
+          <ImageWithModal 
+              projectData={RESHAPING_REMNANTS}
+              altText="Image 1" 
+              isOpen={modalOpen && projectData === RESHAPING_REMNANTS} 
+              onOpen={() => openModal('RESHAPING_REMNANTS')}
+              onClose={() => closeModal()} 
+              loading="lazy"
+            />
+        </div>
+        <div className="col-md-4 ml-auto">
+          <ImageWithModal 
+              projectData={IRREGULAR_STONE_JIG}
+              altText="Image 1" 
+              isOpen={modalOpen && projectData === IRREGULAR_STONE_JIG} 
+              onOpen={() => openModal('IRREGULAR_STONE_JIG')}
+              onClose={() => closeModal()} 
+              loading="lazy"
+            />
+        </div>
+        <div className="col-md-4 ml-auto">
+          <ImageWithModal 
+              projectData={PATTERNS_IN_NATURE}
               altText="Image 1" 
               isOpen={modalOpen && projectData === PATTERNS_IN_NATURE} 
               onOpen={() => openModal('PATTERNS_IN_NATURE')}
@@ -262,63 +294,30 @@ function Architecture() {
       <div className="row row-container">
         <div className="col-md-4 ml-auto">
           <ImageWithModal 
-              projectData={MDEAS} 
+              projectData={LIVING_INTERSECTION}
               altText="Image 1" 
-              isOpen={modalOpen && projectData === MDEAS} 
-              onOpen={() => openModal('MDEAS')}
+              isOpen={modalOpen && projectData === LIVING_INTERSECTION} 
+              onOpen={() => openModal('LIVING_INTERSECTION')}
               onClose={() => closeModal()} 
               loading="lazy"
             />
         </div>
         <div className="col-md-4 ml-auto">
           <ImageWithModal 
-              projectData={HEWITT} 
+              projectData={CONTAINER_AND_CONTAINED}
               altText="Image 1" 
-              isOpen={modalOpen && projectData === HEWITT} 
-              onOpen={() => openModal('HEWITT')}
+              isOpen={modalOpen && projectData === CONTAINER_AND_CONTAINED} 
+              onOpen={() => openModal('CONTAINER_AND_CONTAINED')}
               onClose={() => closeModal()} 
               loading="lazy"
             />
         </div>
         <div className="col-md-4 ml-auto">
           <ImageWithModal 
-              projectData={RESHAPING_REMNANTS} 
+              projectData={SENSING_TEXTURE}
               altText="Image 1" 
-              isOpen={modalOpen && projectData === RESHAPING_REMNANTS} 
-              onOpen={() => openModal('RESHAPING_REMNANTS')}
-              onClose={() => closeModal()} 
-              loading="lazy"
-            />
-        </div>
-      </div>
-
-      <div className="row row-container">
-        <div className="col-md-4 ml-auto">
-          <ImageWithModal 
-              projectData={SEAGRAM} 
-              altText="Image 1" 
-              isOpen={modalOpen && projectData === SEAGRAM} 
-              onOpen={() => openModal('SEAGRAM')}
-              onClose={() => closeModal()} 
-              loading="lazy"
-            />
-        </div>
-        <div className="col-md-4 ml-auto">
-          <ImageWithModal 
-              projectData={THESIS_PREP_BOOK} 
-              altText="Image 1" 
-              isOpen={modalOpen && projectData === THESIS_PREP_BOOK} 
-              onOpen={() => openModal('THESIS_PREP_BOOK')}
-              onClose={() => closeModal()} 
-              loading="lazy"
-            />
-        </div>
-        <div className="col-md-4 ml-auto">
-          <ImageWithModal 
-              projectData={MOVING_STONE} 
-              altText="Image 1" 
-              isOpen={modalOpen && projectData === MOVING_STONE} 
-              onOpen={() => openModal('MOVING_STONE')}
+              isOpen={modalOpen && projectData === SENSING_TEXTURE} 
+              onOpen={() => openModal('SENSING_TEXTURE')}
               onClose={() => closeModal()} 
               loading="lazy"
             />
@@ -328,30 +327,30 @@ function Architecture() {
       <div className="row row-container">
         <div className="col-md-4 ml-auto">
           <ImageWithModal 
-              projectData={IRREGULAR_STONE_JIG} 
+              projectData={JUMP_CUT}
               altText="Image 1" 
-              isOpen={modalOpen && projectData === IRREGULAR_STONE_JIG} 
-              onOpen={() => openModal('IRREGULAR_STONE_JIG')}
+              isOpen={modalOpen && projectData === JUMP_CUT} 
+              onOpen={() => openModal('JUMP_CUT')}
               onClose={() => closeModal()} 
               loading="lazy"
             />
         </div>
         <div className="col-md-4 ml-auto">
           <ImageWithModal 
-              projectData={CUSTOM_SANDSTONE_MORTAR} 
+              projectData={CRATER}
               altText="Image 1" 
-              isOpen={modalOpen && projectData === CUSTOM_SANDSTONE_MORTAR} 
-              onOpen={() => openModal('CUSTOM_SANDSTONE_MORTAR')}
+              isOpen={modalOpen && projectData === CRATER} 
+              onOpen={() => openModal('CRATER')}
               onClose={() => closeModal()} 
               loading="lazy"
             />
         </div>
         <div className="col-md-4 ml-auto">
           <ImageWithModal 
-              projectData={PRINTING_SPACES_IN_STONE} 
+              projectData={REST_STOP_REVISITED}
               altText="Image 1" 
-              isOpen={modalOpen && projectData === PRINTING_SPACES_IN_STONE} 
-              onOpen={() => openModal('PRINTING_SPACES_IN_STONE')}
+              isOpen={modalOpen && projectData === REST_STOP_REVISITED} 
+              onOpen={() => openModal('REST_STOP_REVISITED')}
               onClose={() => closeModal()} 
               loading="lazy"
             />
