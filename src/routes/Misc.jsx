@@ -26,7 +26,16 @@ import {
   CONCRETE_STOOL,
   TRAVEL_PHOTOGRAPHY,
   GRADUATION_PHOTOGRAPHY,
-  WEDDING_02
+  WEDDING_02,
+  COLLECTING_CLEANING_CUTTING,
+  KENTUCKY_PHOTOGRAPHY,
+  VOLCANIC_BENCH,
+  RURAL_GSD,
+  CONCRETE_BALLET,
+  GEOLOGIC_JOINERY,
+  GEOLOGIC_JOINERY_II,
+  PARAMETRIC_QUARRY,
+  CUSTOM_3D_PRINT_TOOLPATH,
 } from '../components/MiscData';
 
 const projectDataMap = {
@@ -50,7 +59,16 @@ const projectDataMap = {
   'CONCRETE_STOOL': CONCRETE_STOOL,
   'TRAVEL_PHOTOGRAPHY': TRAVEL_PHOTOGRAPHY,
   'GRADUATION_PHOTOGRAPHY': GRADUATION_PHOTOGRAPHY,
-  'WEDDING_02': WEDDING_02
+  'WEDDING_02': WEDDING_02,
+  'CONCRETE_BALLET': CONCRETE_BALLET,
+  'GEOLOGIC_JOINERY': GEOLOGIC_JOINERY,
+  'GEOLOGIC_JOINERY_II': GEOLOGIC_JOINERY_II,
+  'PARAMETRIC_QUARRY': PARAMETRIC_QUARRY,
+  'CUSTOM_3D_PRINT_TOOLPATH': CUSTOM_3D_PRINT_TOOLPATH,
+  'COLLECTING_CLEANING_CUTTING': COLLECTING_CLEANING_CUTTING,
+  'RURAL_GSD': RURAL_GSD,
+  'KENTUCKY_PHOTOGRAPHY': KENTUCKY_PHOTOGRAPHY,
+  'VOLCANIC_BENCH': VOLCANIC_BENCH,
 };
 
 function Misc() {
@@ -310,6 +328,105 @@ function Misc() {
               altText="Image 1" 
               isOpen={modalOpen && projectData === WEDDING_02} 
               onOpen={() => openModal('WEDDING_02')}
+              onClose={() => closeModal()} 
+              loading="lazy"
+            />
+        </div>
+      </div>
+
+      <div className="row row-container">
+        <div className="col-md-4 ml-auto">
+          <ImageWithModal 
+              projectData={CONCRETE_BALLET} 
+              altText="Image 1" 
+              isOpen={modalOpen && projectData === CONCRETE_BALLET} 
+              onOpen={() => openModal('CONCRETE_BALLET')}
+              onClose={() => closeModal()} 
+              loading="lazy"
+            />
+        </div>
+        <div className="col-md-4 ml-auto">
+          <ImageWithModal 
+              projectData={GEOLOGIC_JOINERY} 
+              altText="Image 1" 
+              isOpen={modalOpen && projectData === GEOLOGIC_JOINERY} 
+              onOpen={() => openModal('GEOLOGIC_JOINERY')}
+              onClose={() => closeModal()} 
+              loading="lazy"
+            />
+        </div>
+        <div className="col-md-4 ml-auto">
+          <ImageWithModal 
+              projectData={GEOLOGIC_JOINERY_II} 
+              altText="Image 1" 
+              isOpen={modalOpen && projectData === GEOLOGIC_JOINERY_II} 
+              onOpen={() => openModal('GEOLOGIC_JOINERY_II')}
+              onClose={() => closeModal()} 
+              loading="lazy"
+            />
+        </div>
+      </div>
+
+      <div className="row row-container">
+        <div className="col-md-4 ml-auto">
+          <ImageWithModal 
+              projectData={PARAMETRIC_QUARRY} 
+              altText="Image 1" 
+              isOpen={modalOpen && projectData === CONCRETE_BALLET} 
+              onOpen={() => openModal('CONCRETE_BALLET')}
+              onClose={() => closeModal()} 
+              loading="lazy"
+            />
+        </div>
+        <div className="col-md-4 ml-auto">
+          <ImageWithModal 
+              projectData={CUSTOM_3D_PRINT_TOOLPATH} 
+              altText="Image 1" 
+              isOpen={modalOpen && projectData === CUSTOM_3D_PRINT_TOOLPATH} 
+              onOpen={() => openModal('CUSTOM_3D_PRINT_TOOLPATH')}
+              onClose={() => closeModal()} 
+              loading="lazy"
+            />
+        </div>
+        <div className="col-md-4 ml-auto">
+          <ImageWithModal 
+              projectData={COLLECTING_CLEANING_CUTTING} 
+              altText="Image 1" 
+              isOpen={modalOpen && projectData === COLLECTING_CLEANING_CUTTING} 
+              onOpen={() => openModal('COLLECTING_CLEANING_CUTTING')}
+              onClose={() => closeModal()} 
+              loading="lazy"
+            />
+        </div>
+      </div>
+
+      <div className="row row-container">
+        <div className="col-md-4 ml-auto">
+          <ImageWithModal 
+              projectData={RURAL_GSD} 
+              altText="Image 1" 
+              isOpen={modalOpen && projectData === RURAL_GSD} 
+              onOpen={() => openModal('RURAL_GSD')}
+              onClose={() => closeModal()} 
+              loading="lazy"
+            />
+        </div>
+        <div className="col-md-4 ml-auto">
+          <ImageWithModal 
+              projectData={KENTUCKY_PHOTOGRAPHY} 
+              altText="Image 1" 
+              isOpen={modalOpen && projectData === KENTUCKY_PHOTOGRAPHY} 
+              onOpen={() => openModal('KENTUCKY_PHOTOGRAPHY')}
+              onClose={() => closeModal()} 
+              loading="lazy"
+            />
+        </div>
+        <div className="col-md-4 ml-auto">
+          <ImageWithModal 
+              projectData={VOLCANIC_BENCH} 
+              altText="Image 1" 
+              isOpen={modalOpen && projectData === VOLCANIC_BENCH} 
+              onOpen={() => openModal('VOLCANIC_BENCH')}
               onClose={() => closeModal()} 
               loading="lazy"
             />

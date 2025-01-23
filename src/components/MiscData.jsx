@@ -474,10 +474,18 @@ export const CONCRETE_BALLET = {
     "Testing how one friend can pull another along according to a unique geometric alignment. This ultimately performed a ballet of concrete—the assembly catch and combined weight rolled the two casts. The two molds were designed for 2D rotation based the location of the Center of Mass and density of rockite. Alone, they stand in place, but their combined weight allows the two to navigate together. The performance is precise assembly that requires the intervention of an induced human force."
   ],
   images: [
-    "https://maddie-portfolio.s3.amazonaws.com/architecture/concrete_ballet/image_order/01.jpg",
-
+    "https://maddie-portfolio.s3.amazonaws.com/misc/concrete_ballet/image_order/Image01.jpg",
+    "https://maddie-portfolio.s3.amazonaws.com/misc/concrete_ballet/image_order/Image02.jpg",
+    "https://maddie-portfolio.s3.amazonaws.com/misc/concrete_ballet/image_order/Image03.jpg",
+    "https://maddie-portfolio.s3.amazonaws.com/misc/concrete_ballet/image_order/Image04.jpg",
+    "https://maddie-portfolio.s3.amazonaws.com/misc/concrete_ballet/image_order/Image05.jpg",
+    "https://maddie-portfolio.s3.amazonaws.com/misc/concrete_ballet/image_order/Image06.jpg",
+    "https://maddie-portfolio.s3.amazonaws.com/misc/concrete_ballet/image_order/Image07.jpg",
+    "https://maddie-portfolio.s3.amazonaws.com/misc/concrete_ballet/image_order/Image08.jpg",
+    "https://maddie-portfolio.s3.amazonaws.com/misc/concrete_ballet/image_order/Image09.jpg",
+    "https://maddie-portfolio.s3.amazonaws.com/misc/concrete_ballet/image_order/Image10.jpg",
   ],
-  thumbnail: "https://maddie-portfolio.s3.amazonaws.com/architecture/concrete_ballet/title_image/TitleSwirl.jpg"
+  thumbnail: "https://maddie-portfolio.s3.amazonaws.com/misc/concrete_ballet/title_image/title.jpg"
 }
 
 export const GEOLOGIC_JOINERY = {
@@ -488,10 +496,14 @@ export const GEOLOGIC_JOINERY = {
     "Shale, limestone, coal, and sandstone exist on a geological timescale, reflecting millions of years of formation. Our current architectural models exists within much shallower timelines, catering to the quick and expedient. Restoring ecology demands design attuned to this deeper timescale, engaging materials that resist standardization to create enduring connections. How can we operate within an existing inventory of stone to design the joining of these elements?"
   ],
   images: [
-    "https://maddie-portfolio.s3.amazonaws.com/architecture/geologic_joinery/image_order/01.jpg",
+    "https://maddie-portfolio.s3.amazonaws.com/misc/geologic_joinery/image_order/Image0.jpg",
+    "https://maddie-portfolio.s3.amazonaws.com/misc/geologic_joinery/image_order/Image02.jpg",
+    "https://maddie-portfolio.s3.amazonaws.com/misc/geologic_joinery/image_order/Image03.jpg",
+    "https://maddie-portfolio.s3.amazonaws.com/misc/geologic_joinery/image_order/Image04.jpg",
+    "https://maddie-portfolio.s3.amazonaws.com/misc/geologic_joinery/image_order/Image05.jpg",
 
   ],
-  thumbnail: "https://maddie-portfolio.s3.amazonaws.com/architecture/geologic_joinery/title_image/Geologic_Joinery_Title.jpg"
+  thumbnail: "https://maddie-portfolio.s3.amazonaws.com/misc/geologic_joinery/title_image/title.jpg"
 }
 
 export const GEOLOGIC_JOINERY_II = {
@@ -502,9 +514,16 @@ export const GEOLOGIC_JOINERY_II = {
     "Embracing the uncontrolled geometries and irregularities of overburden Strip Mining rock as viable, beautiful building materials."
   ],
   images: [
-    "https://maddie-portfolio.s3.amazonaws.com/architecture/geologic_joinery_ii/image_order/01.jpg",
+    "https://maddie-portfolio.s3.amazonaws.com/misc/geologic_joinery_ii/image_order/Image01.jpg",
+    "https://maddie-portfolio.s3.amazonaws.com/misc/geologic_joinery_ii/image_order/Image02.jpg",
+    "https://maddie-portfolio.s3.amazonaws.com/misc/geologic_joinery_ii/image_order/Image03.jpg",
+    "https://maddie-portfolio.s3.amazonaws.com/misc/geologic_joinery_ii/image_order/Image04.jpg",
+    "https://maddie-portfolio.s3.amazonaws.com/misc/geologic_joinery_ii/image_order/Image05.jpg",
+    "https://maddie-portfolio.s3.amazonaws.com/misc/geologic_joinery_ii/image_order/Image06.jpg",
+    "https://maddie-portfolio.s3.amazonaws.com/misc/geologic_joinery_ii/image_order/Image07.jpg",
+    "https://maddie-portfolio.s3.amazonaws.com/misc/geologic_joinery_ii/image_order/Image08.jpg",
   ],
-  thumbnail: "https://maddie-portfolio.s3.amazonaws.com/architecture/geologic_joinery_ii/title_image/GeologicIITItle.jpg"
+  thumbnail: "https://maddie-portfolio.s3.amazonaws.com/misc/geologic_joinery_ii/title_image/title.jpg"
 }
 
 export const PARAMETRIC_QUARRY = {
@@ -515,10 +534,16 @@ export const PARAMETRIC_QUARRY = {
     "Transformation of a parametric quarry with Tanil Raif and Jing Liao. Stone and land shift with depth and time, echoing themes of transience and impermanence. As rocks break down into smaller particles, the quarry's surface becomes a metaphor for the fleeting nature of materiality. Using a grid of parametric x and y points, we mapped geometry based on mathematical functions, with the Z-value determining the stones' size and relationships."
   ],
   images: [
-    "https://maddie-portfolio.s3.amazonaws.com/architecture/parametric_quarry/image_order/01.jpg",
-
+    "https://maddie-portfolio.s3.amazonaws.com/misc/parametric_quarry/image_order/Image0.jpg",
+    "https://maddie-portfolio.s3.amazonaws.com/misc/parametric_quarry/image_order/Image02.jpg",
+    "https://maddie-portfolio.s3.amazonaws.com/misc/parametric_quarry/image_order/Image03.jpg",
+    "https://maddie-portfolio.s3.amazonaws.com/misc/parametric_quarry/image_order/Image04.jpg",
+    "https://maddie-portfolio.s3.amazonaws.com/misc/parametric_quarry/image_order/Image05.jpg",
+    "https://maddie-portfolio.s3.amazonaws.com/misc/parametric_quarry/image_order/Image06.jpg",
+    "https://maddie-portfolio.s3.amazonaws.com/misc/parametric_quarry/image_order/Image07.jpg",
+    "https://maddie-portfolio.s3.amazonaws.com/misc/parametric_quarry/image_order/Image08.jpg",
   ],
-  thumbnail: "https://maddie-portfolio.s3.amazonaws.com/architecture/parametric_quarry/title_image/image1_2250x1200.jpg"
+  thumbnail: "https://maddie-portfolio.s3.amazonaws.com/misc/parametric_quarry/title_image/title.jpg"
 }
 
 export const CUSTOM_3D_PRINT_TOOLPATH = {
@@ -529,10 +554,16 @@ export const CUSTOM_3D_PRINT_TOOLPATH = {
     "3D printing using custom C# toolpaths with Tanil Raif and Jing Liao. This project uses a continuous spiral approach to 3D printing, departing from traditional horizontal layering to produce a lightweight, open structure adaptable to non-linear surfaces. By manipulating parametric variables like the amplitude and frequency of undulations in the XY and Z planes, we control the form's adaptability and visual complexity, allowing for intentional coil misalignments that enhance openness and shadow effects. These adjustments enable the structure to enclose irregular stones without requiring precise stacking, making it suitable for irregular, organic settings."
   ],
   images: [
-    "https://maddie-portfolio.s3.amazonaws.com/architecture/custom_3d_print_toolpath/image_order/01.mp4",
-
+    "https://maddie-portfolio.s3.amazonaws.com/misc/custom_3d_print/image_order/01.mp4",
+    "https://maddie-portfolio.s3.amazonaws.com/misc/custom_3d_print/image_order/Image1.5.jpg",
+    "https://maddie-portfolio.s3.amazonaws.com/misc/custom_3d_print/image_order/Image02.jpg",
+    "https://maddie-portfolio.s3.amazonaws.com/misc/custom_3d_print/image_order/Image03.jpg",
+    "https://maddie-portfolio.s3.amazonaws.com/misc/custom_3d_print/image_order/Image04.jpg",
+    "https://maddie-portfolio.s3.amazonaws.com/misc/custom_3d_print/image_order/Image05.jpg",
+    "https://maddie-portfolio.s3.amazonaws.com/misc/custom_3d_print/image_order/Image06.jpg",
+    "https://maddie-portfolio.s3.amazonaws.com/misc/custom_3d_print/image_order/Image07.jpg",
   ],
-  thumbnail: "https://maddie-portfolio.s3.amazonaws.com/architecture/custom_3d_print_toolpath/title_image/LaceTitle.jpg"
+  thumbnail: "https://maddie-portfolio.s3.amazonaws.com/misc/custom_3d_print/title_image/title.jpg"
 }
 
 export const COLLECTING_CLEANING_CUTTING = {
@@ -543,10 +574,27 @@ export const COLLECTING_CLEANING_CUTTING = {
     "Discarded overburden post strip-mining has particular breakage tendencies. Life that flourishes is these abandoned landscapes in Kentucky is attuned to the affordances offered by human design and the anomalies of the rock left behind. How might the design process engage in something that does not have a predetermined standardization. How can we operate with the existing inventory of stone to design the joining of these elements?"
   ],
   images: [
-    "https://maddie-portfolio.s3.amazonaws.com/architecture/collecting_cleaning_cutting/image_order/01.jpg",
-
+    "https://maddie-portfolio.s3.amazonaws.com/misc/collecting_cleaning/image_order/Image0.jpg",
+    "https://maddie-portfolio.s3.amazonaws.com/misc/collecting_cleaning/image_order/Image02.jpg",
+    "https://maddie-portfolio.s3.amazonaws.com/misc/collecting_cleaning/image_order/Image03.jpg",
+    "https://maddie-portfolio.s3.amazonaws.com/misc/collecting_cleaning/image_order/Image04.jpg",
+    "https://maddie-portfolio.s3.amazonaws.com/misc/collecting_cleaning/image_order/Image05.jpg",
+    "https://maddie-portfolio.s3.amazonaws.com/misc/collecting_cleaning/image_order/Image06.jpg",
+    "https://maddie-portfolio.s3.amazonaws.com/misc/collecting_cleaning/image_order/Image07.jpg",
+    "https://maddie-portfolio.s3.amazonaws.com/misc/collecting_cleaning/image_order/Image08.jpg",
+    "https://maddie-portfolio.s3.amazonaws.com/misc/collecting_cleaning/image_order/Image09.jpg",
+    "https://maddie-portfolio.s3.amazonaws.com/misc/collecting_cleaning/image_order/Image10.jpg",
+    "https://maddie-portfolio.s3.amazonaws.com/misc/collecting_cleaning/image_order/Image11.jpg",
+    "https://maddie-portfolio.s3.amazonaws.com/misc/collecting_cleaning/image_order/Image12.jpg",
+    "https://maddie-portfolio.s3.amazonaws.com/misc/collecting_cleaning/image_order/Image13.jpg",
+    "https://maddie-portfolio.s3.amazonaws.com/misc/collecting_cleaning/image_order/Image14.jpg",
+    "https://maddie-portfolio.s3.amazonaws.com/misc/collecting_cleaning/image_order/Image15.jpg",
+    "https://maddie-portfolio.s3.amazonaws.com/misc/collecting_cleaning/image_order/Image16.jpg",
+    "https://maddie-portfolio.s3.amazonaws.com/misc/collecting_cleaning/image_order/Image17.jpg",
+    "https://maddie-portfolio.s3.amazonaws.com/misc/collecting_cleaning/image_order/Image18.jpg",
+    "https://maddie-portfolio.s3.amazonaws.com/misc/collecting_cleaning/image_order/Image19.jpg",
   ],
-  thumbnail: "https://maddie-portfolio.s3.amazonaws.com/architecture/collecting_cleaning_cutting/title_image/Grid.jpg"
+  thumbnail: "https://maddie-portfolio.s3.amazonaws.com/misc/collecting_cleaning/title_image/title.jpg"
 }
 
 export const RURAL_GSD = {
@@ -557,10 +605,19 @@ export const RURAL_GSD = {
     "Rural GSD hosted a student-produced exhibition at the Kirkland Gallery in October 2024. Practitioners ran workshops with topics that ranged from economics of preserving productive farmland to cross cultural design/build strategies. There was cooking, sharing, and connecting across representations and lived experiences. Thanks to the whole Rural GSD team and the Loeb Fellows for sponsoring."
   ],
   images: [
-    "https://maddie-portfolio.s3.amazonaws.com/architecture/rural_gsd/image_order/01.jpg",
-
+    "https://maddie-portfolio.s3.amazonaws.com/misc/rural_gsd/image_order/Image0.jpg",
+    "https://maddie-portfolio.s3.amazonaws.com/misc/rural_gsd/image_order/Image02.jpg",
+    "https://maddie-portfolio.s3.amazonaws.com/misc/rural_gsd/image_order/Image03.jpg",
+    "https://maddie-portfolio.s3.amazonaws.com/misc/rural_gsd/image_order/Image04.jpg",
+    "https://maddie-portfolio.s3.amazonaws.com/misc/rural_gsd/image_order/Image05.jpg",
+    "https://maddie-portfolio.s3.amazonaws.com/misc/rural_gsd/image_order/Image06.jpg",
+    "https://maddie-portfolio.s3.amazonaws.com/misc/rural_gsd/image_order/Image07.jpg",
+    "https://maddie-portfolio.s3.amazonaws.com/misc/rural_gsd/image_order/Image08.jpg",
+    "https://maddie-portfolio.s3.amazonaws.com/misc/rural_gsd/image_order/Image09.jpg",
+    "https://maddie-portfolio.s3.amazonaws.com/misc/rural_gsd/image_order/Image010.jpg",
+    "https://maddie-portfolio.s3.amazonaws.com/misc/rural_gsd/image_order/Image011.jpg",
   ],
-  thumbnail: "https://maddie-portfolio.s3.amazonaws.com/architecture/rural_gsd/title_image/KirkGalleryTitle.jpg"
+  thumbnail: "https://maddie-portfolio.s3.amazonaws.com/misc/rural_gsd/title_image/title.jpg"
 }
 
 export const KENTUCKY_PHOTOGRAPHY = {
@@ -569,10 +626,19 @@ export const KENTUCKY_PHOTOGRAPHY = {
   header2: "Lexington, KY / 2025",
   text: [],
   images: [
-    "https://maddie-portfolio.s3.amazonaws.com/architecture/kentucky_photography/image_order/01.jpg",
-
+    "https://maddie-portfolio.s3.amazonaws.com/misc/kentucky_photography/image_order/Image0.jpg",
+    "https://maddie-portfolio.s3.amazonaws.com/misc/kentucky_photography/image_order/Image02.jpg",
+    "https://maddie-portfolio.s3.amazonaws.com/misc/kentucky_photography/image_order/Image03.jpg",
+    "https://maddie-portfolio.s3.amazonaws.com/misc/kentucky_photography/image_order/Image04.jpg",
+    "https://maddie-portfolio.s3.amazonaws.com/misc/kentucky_photography/image_order/Image05.jpg",
+    "https://maddie-portfolio.s3.amazonaws.com/misc/kentucky_photography/image_order/Image06.jpg",
+    "https://maddie-portfolio.s3.amazonaws.com/misc/kentucky_photography/image_order/Image07.jpg",
+    "https://maddie-portfolio.s3.amazonaws.com/misc/kentucky_photography/image_order/Image08.jpg",
+    "https://maddie-portfolio.s3.amazonaws.com/misc/kentucky_photography/image_order/Image09.jpg",
+    "https://maddie-portfolio.s3.amazonaws.com/misc/kentucky_photography/image_order/Image10.jpg",
+    "https://maddie-portfolio.s3.amazonaws.com/misc/kentucky_photography/image_order/Image11.jpg",
   ],
-  thumbnail: "https://maddie-portfolio.s3.amazonaws.com/architecture/kentucky_photography/title_image/ire.jpg"
+  thumbnail: "https://maddie-portfolio.s3.amazonaws.com/misc/kentucky_photography/title_image/title.jpg"
 }
 
 export const VOLCANIC_BENCH = {
@@ -583,8 +649,11 @@ export const VOLCANIC_BENCH = {
     "Design for a furniture competition in Hokkaido, Japan. The bench combines rest for hikers + refuge for the native Pikas, who nest in the crevices of the alpine slopes. A robotic printed seat is made from the site's volcanic ash and clay, adapting to the site's 3D scanned rocks' irregular geometry. It invites pause, standing for simplicity, balance, and the gentle curve of the Daisetsuzan Mountains."
   ],
   images: [
-    "https://maddie-portfolio.s3.amazonaws.com/architecture/volcanic_bench/image_order/Image_01.jpg",
-
+    "https://maddie-portfolio.s3.amazonaws.com/misc/volcanic_bench/image_order/Image_01.jpg",
+    "https://maddie-portfolio.s3.amazonaws.com/misc/volcanic_bench/image_order/Image_02.jpg",
+    "https://maddie-portfolio.s3.amazonaws.com/misc/volcanic_bench/image_order/Image_03.jpg",
+    "https://maddie-portfolio.s3.amazonaws.com/misc/volcanic_bench/image_order/Image_04.jpg",
+    "https://maddie-portfolio.s3.amazonaws.com/misc/volcanic_bench/image_order/Image_05.jpg",
   ],
-  thumbnail: "https://maddie-portfolio.s3.amazonaws.com/architecture/volcanic_bench/title_image/VolcanicBenchTitleImage.jpg"
+  thumbnail: "https://maddie-portfolio.s3.amazonaws.com/misc/volcanic_bench/title_image/title.png"
 }
