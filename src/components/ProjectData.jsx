@@ -58,7 +58,7 @@ export const CONTAINER_AND_CONTAINED = {
 
 export const CRATER = {
   name: "Crater",
-  header1: "Crater/ Partner Tanil Raif / Critic Wenjing Huang and Li Hu, OPEN Architects",
+  header1: "Partner Tanil Raif / Critic Wenjing Huang and Li Hu, OPEN Architects",
   header2: "Harvard GSD / 2024",
   text: [
     "In this project, we invite connection between human and non-human, academia and civility to shape optimistic realities. We propose a design school that confronts the didactic relationship between teachers and pupils and design education's typical lack of contact with the public. We propose a living museum: A design education that encourages contact and collaboration with local ecologies, community, and industry.",
@@ -107,7 +107,7 @@ export const CRATER = {
 };
 
 export const GIFT_ECONOMY = {
-  name: "Core III Gift Economy",
+  name: "Gift Economy",
   header1: "Core III / Critic Grace La",
   header2: "Harvard GSD / 2022",
   text: [
@@ -157,9 +157,9 @@ export const GIFT_ECONOMY = {
 }
 
 export const HEWITT = {
-  name: "HEWITT",
-  header1: "Professional Work / HEWITT Architects",
-  header2: "Seattle, WA / 2019-2021",
+  name: "Professional Work / HEWITT Architects",
+  header1: "Seattle, WA / 2019-2021",
+  header2: "",
   text: [
     "At HEWITT Architects, I was responsible for Seattle Design Review board packages, design development and construction phase detail documentation, feasibility and land use studies, Enscape renderings, and physical model iteration to communicate essential messaging to City and Client groups for high-rise residential buildings.",
     "I found the most valuable design happened within walking distance of our office, including in districts where my research was presented at community outreach meetings to promote accommodation of historical fabric."
@@ -281,9 +281,9 @@ export const LIVING_INTERSECTION = {
 };
 
 export const MDEAS = {
-  name: "MdeAS",
-  header1: "Professional Work / MdeAS Architects",
-  header2: "NYC / 2022",
+  name: "Professional Work / MdeAS Architects",
+  header1: "NYC / 2022",
+  header2: "",
   text: [
     "I developed interior and exterior renderings, material curation, facade studies, and detail construction documents for adaptive re-use iconic projects such as the Lipstick Building, Studio 54, and Penn 2."
   ],
@@ -332,7 +332,7 @@ export const PATTERNS_IN_NATURE = {
 
 export const POWER_ENERGY = {
   name: "Power + Energy: Mapping the Thickened Ground of Labor",
-  header1: "Power + Energy: Mapping the Thickened Ground of Labor / Critic Rose Monacella and Glynwood Center for Food and Regional Farming",
+  header1: "Partner Tanil Raif / Critic Rose Monacella and Glynwood Center for Food and Regional Farming",
   header2: "Harvard GSD / 2024",
   text: [
     "What evidence tells us iron ore is energy? Who claimed this matter is inert, and can be readily commoditized and sold? When does the movement of 'becoming' a 'productive' material begin and end? What other sources of energy have always been embedded in the Putnam County landscape, beyond timber, charcoal, and iron ore?",

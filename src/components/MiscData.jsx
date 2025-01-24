@@ -435,9 +435,9 @@ export const GRADUATION_PHOTOGRAPHY = {
 }
 
 export const WEDDING_02 = {
-  name: "Wedding 02",
-  header1: "Wedding Signage / Programs, Invites, Seating Labels, T-Shirts",
-  header2: "Chicago, IL / 2024",
+  name: "Wedding Signage / Programs, Invites, Seating Labels, T-Shirts",
+  header1: "Chicago, IL / 2024",
+  header2: "",
   text: [
     "I worked with the bride to compose personalized, hand-painted signage fitting to her floral theme and personality-driven memorabilia."
   ],

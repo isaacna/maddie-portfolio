@@ -15,6 +15,9 @@ html, body {
 .bold-font {
   font-weight: 1000 !important;
 }
+.thin-font {
+  font-weight: 100 !important;
+}
 
 /* Menu bar */
 .header-bar {
