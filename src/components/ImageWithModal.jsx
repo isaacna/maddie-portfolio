@@ -13,7 +13,7 @@ const ImageWithModal = ({ projectData, isOpen, onOpen, onClose, loading }) => {
 
   return (
     <>
-      <img id="modal1" onClick={onOpen} src={projectData.thumbnail} alt="" className="mx-auto d-block image-grid" loading={loading} />
+      <img id="modal1" onClick={onOpen} src={projectData.thumbnail} alt="" className="mx-auto d-block image-grid image-modal-hover" loading={loading} />
       <Modal show={isOpen} fullscreen={fullscreen} onHide={onClose}>        
         <Modal.Body className="modal-body">
           <div>

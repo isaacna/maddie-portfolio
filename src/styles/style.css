@@ -70,6 +70,10 @@ html, body {
   max-height: 33vh;
 }
 
+.image-modal-hover {
+  cursor: pointer;
+}
+
 /* About page */
 .about-img {
   max-height: 50%;
