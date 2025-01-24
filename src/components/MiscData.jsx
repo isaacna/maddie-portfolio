@@ -232,6 +232,7 @@ export const TATTOOS = {
     ],
     images: [
       "https://maddie-portfolio.s3.amazonaws.com/misc/tattoos/1.jpg",
+      "https://maddie-portfolio.s3.amazonaws.com/misc/tattoos/1.5.jpg",
       "https://maddie-portfolio.s3.amazonaws.com/misc/tattoos/2.jpg",
       "https://maddie-portfolio.s3.amazonaws.com/misc/tattoos/3.JPG",
       "https://maddie-portfolio.s3.amazonaws.com/misc/tattoos/4.jpg",

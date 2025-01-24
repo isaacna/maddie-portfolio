@@ -366,6 +366,21 @@ function Misc() {
           />
         </div>
       </div>
+
+      <div className="row row-container">
+        <div className="col-md-4 ml-auto"></div>
+        <div className="col-md-4 ml-auto">
+          <ImageWithModal 
+              projectData={CONCRETE_BALLET}
+              altText="Image 1" 
+              isOpen={modalOpen && projectData === CONCRETE_BALLET}
+              onOpen={() => openModal('CONCRETE_BALLET')}
+              onClose={() => closeModal()} 
+              loading="lazy"
+          />
+        </div>
+        <div className="col-md-4 ml-auto"></div>
+      </div>
     </div>
   </div>
   );
