@@ -485,7 +485,7 @@ export const CONCRETE_BALLET = {
     "https://maddie-portfolio.s3.amazonaws.com/misc/concrete_ballet/image_order/Image07.jpg",
     "https://maddie-portfolio.s3.amazonaws.com/misc/concrete_ballet/image_order/Image08.jpg",
     "https://maddie-portfolio.s3.amazonaws.com/misc/concrete_ballet/image_order/Image09.jpg",
-    "https://maddie-portfolio.s3.amazonaws.com/misc/concrete_ballet/image_order/Image10.jpg",
+    "https://maddie-portfolio.s3.amazonaws.com/misc/concrete_ballet/image_order/Image010.jpg",
   ],
   thumbnail: "https://maddie-portfolio.s3.amazonaws.com/misc/concrete_ballet/title_image/title.jpg"
 }
