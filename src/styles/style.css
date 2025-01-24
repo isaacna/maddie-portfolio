@@ -77,6 +77,10 @@ html, body {
   top:-40px;
 }
 
+.about-link {
+  text-decoration: none;
+}
+
 /* Size of modal box */
 @media screen {
   .modal-dialog {
