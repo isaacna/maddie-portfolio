@@ -116,7 +116,7 @@ export const GIFT_ECONOMY = {
   ],
   images: [
     "https://maddie-portfolio.s3.amazonaws.com/architecture/gift_economy/image_order/01_first Image.jpg",
-    "https://maddie-portfolio.s3.amazonaws.com/architecture/gift_economy/image_order/1.2.png",
+    "https://maddie-portfolio.s3.amazonaws.com/architecture/gift_economy/image_order/1.2.jpg",
     "https://maddie-portfolio.s3.amazonaws.com/architecture/gift_economy/image_order/1.3.jpg",
     "https://maddie-portfolio.s3.amazonaws.com/architecture/gift_economy/image_order/2.jpg",
     "https://maddie-portfolio.s3.amazonaws.com/architecture/gift_economy/image_order/3.jpg",
@@ -291,6 +291,9 @@ export const MDEAS = {
     "https://maddie-portfolio.s3.amazonaws.com/architecture/mdeas/image_order/01.jpg",
     "https://maddie-portfolio.s3.amazonaws.com/architecture/mdeas/image_order/02.jpg",
     "https://maddie-portfolio.s3.amazonaws.com/architecture/mdeas/image_order/03.jpg",
+    "https://maddie-portfolio.s3.amazonaws.com/architecture/mdeas/image_order/03.1.jpg",
+    "https://maddie-portfolio.s3.amazonaws.com/architecture/mdeas/image_order/03.2.jpg",
+    "https://maddie-portfolio.s3.amazonaws.com/architecture/mdeas/image_order/03.3.jpg",
     "https://maddie-portfolio.s3.amazonaws.com/architecture/mdeas/image_order/04.jpg",
     "https://maddie-portfolio.s3.amazonaws.com/architecture/mdeas/image_order/05.jpg",
     "https://maddie-portfolio.s3.amazonaws.com/architecture/mdeas/image_order/06.jpg",

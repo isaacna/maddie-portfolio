@@ -53,6 +53,7 @@ export const MIXED_MEDIA = {
     ],
     images: [
       "https://maddie-portfolio.s3.amazonaws.com/misc/mixed_media/image_order/1.png",
+      "https://maddie-portfolio.s3.amazonaws.com/misc/mixed_media/image_order/1.5.jpg",
       "https://maddie-portfolio.s3.amazonaws.com/misc/mixed_media/image_order/2.png",
       "https://maddie-portfolio.s3.amazonaws.com/misc/mixed_media/image_order/3.png",
       "https://maddie-portfolio.s3.amazonaws.com/misc/mixed_media/image_order/4.png",
@@ -63,7 +64,7 @@ export const MIXED_MEDIA = {
       "https://maddie-portfolio.s3.amazonaws.com/misc/mixed_media/image_order/9.png",
       "https://maddie-portfolio.s3.amazonaws.com/misc/mixed_media/image_order/10.png",
     ],
-    thumbnail: "https://maddie-portfolio.s3.amazonaws.com/misc/mixed_media/title_image/title.png"
+    thumbnail: "https://maddie-portfolio.s3.amazonaws.com/misc/mixed_media/title_image/title.jpg"
 }
 
 export const GLYNWOOD_FARMS = {
