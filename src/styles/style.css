@@ -115,7 +115,7 @@ html, body {
   .row-container {
     align-items: center;
     padding-top: 5%;
-    padding-bottom: 5%;
+    padding-bottom: 2%;
   }
 
   /* Images and videos inside modal */
@@ -150,8 +150,8 @@ html, body {
   }
   
   .row-container {
-    padding-top: 10%;
-    padding-bottom: 10%;
+    padding-top: 5%;
+    padding-bottom: 5%;
   }
 
   /* Add this new rule */
@@ -159,6 +159,18 @@ html, body {
     margin-left: 10%;
     margin-right: 10%;
     max-width: 100%;
+  }
+
+  /* Optional: Customize container padding if necessary */
+  .container-fluid {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  /* Ensure images take full width of their container */
+  .image-grid, .ImageWithModal img {
+    width: 100%;
+    height: auto;
   }
 }
 
