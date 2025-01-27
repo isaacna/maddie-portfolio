@@ -217,7 +217,7 @@ export const HOUSE_OF_INVERSIONS = {
     "https://maddie-portfolio.s3.amazonaws.com/architecture/house_of_inversions/10.jpg",
     "https://maddie-portfolio.s3.amazonaws.com/architecture/house_of_inversions/11.jpg",
     "https://maddie-portfolio.s3.amazonaws.com/architecture/house_of_inversions/12.jpg",
-    "https://maddie-portfolio.s3.amazonaws.com/architecture/house_of_inversions/13.png",
+    "https://maddie-portfolio.s3.amazonaws.com/architecture/house_of_inversions/13.jpg",
     "https://maddie-portfolio.s3.amazonaws.com/architecture/house_of_inversions/13.jpg",
     "https://maddie-portfolio.s3.amazonaws.com/architecture/house_of_inversions/14.png",
   ],

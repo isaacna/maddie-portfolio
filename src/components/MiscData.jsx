@@ -347,11 +347,6 @@ export const NATIVE_PLANT_PRINTS = {
       "",
     ],
     images: [
-      "https://maddie-portfolio.s3.amazonaws.com/misc/native_plants/image_order/1.jpg",
-      "https://maddie-portfolio.s3.amazonaws.com/misc/native_plants/image_order/2.jpg",
-      "https://maddie-portfolio.s3.amazonaws.com/misc/native_plants/image_order/3.jpg",
-      "https://maddie-portfolio.s3.amazonaws.com/misc/native_plants/image_order/4.jpg",
-      "https://maddie-portfolio.s3.amazonaws.com/misc/native_plants/image_order/5.jpg",
       "https://maddie-portfolio.s3.amazonaws.com/misc/native_plants/image_order/6.jpg",
       "https://maddie-portfolio.s3.amazonaws.com/misc/native_plants/image_order/7.jpg",
       "https://maddie-portfolio.s3.amazonaws.com/misc/native_plants/image_order/8.jpg",
