@@ -12,7 +12,7 @@ function About() {
             <p className="about-text">Check out my <a href="https://drive.google.com/file/d/1T99pyykalquLwdKH6S0UZY12CQFt2p8W/view" className="about-link" target="_blank">resume</a>.</p>
         </div>
         <div class="col-md-6 order-md-2">
-            <img className="about-img img-fluid rightfix" src="https://maddie-portfolio.s3.amazonaws.com/about/MF_Headshot_Color_08.jpg" alt="Your Image" />
+            <img className="about-img img-fluid rightfix" src="https://maddie-portfolio.s3.amazonaws.com/about/MF_Headshot_Color_CROPPED.jpg" alt="Your Image" />
         </div>
     </div>
   );
