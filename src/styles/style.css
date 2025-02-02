@@ -152,6 +152,10 @@ html, body {
   .modal-content {
     max-height: 80%;
   }
+
+  .project-container {
+    padding-top: 10%;
+  }
   
   .row-container {
     padding-top: 5%;

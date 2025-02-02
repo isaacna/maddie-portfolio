@@ -102,7 +102,7 @@ function Misc() {
 
   return (
     <div>
-      <div className="container-fluid">  
+      <div className="container-fluid project-container">  
         <div className="row row-container">
           <div className="col-12 col-sm-6 col-md-4 mb-4">
             <ImageWithModal 
