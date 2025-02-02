@@ -13,29 +13,32 @@ body {
 }
 
 .text-column {
-  padding-top: 5%;            
+  padding-top: 4%;            
 }
 
 .about-text {
-  max-width: 50%;
+  max-width: 100%;
 }
 
 .image-column {
     flex: 1; /* Take up remaining space */
     display: flex;
+    padding-top: 4%;
 }
 
 .about-img {
   height: auto;
-  display: block; /* Remove extra space below the image */
-  max-height: 70%;
-  margin-right: 0;
-  padding-top: 5%;
+  display: block;
+  max-width: 175% !important;
+  object-fit: contain;
+  margin-right: auto;
+  margin-left: 0;
+  margin-top: 0;
 }
 
 .rightfix {
-  margin-left: auto; 
-  margin-right: 0; 
-  padding-left: 0; 
+  margin-left: 0;
+  margin-right: auto;
+  padding-left: 0;
   padding-right: 0;
 }
